@@ -1,0 +1,43 @@
+{
+  "name": "devx-landing-page",
+  "version": "0.1.0",
+  "description": "devx landing page",
+  "private": true,
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p --progress --color",
+    "build-dev": "webpack-dev-server -p -w --progress --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<orgname>/<reponame>.git"
+  },
+  "keywords": [],
+  "author": "xorkevin",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/<orgname>/<reponame>/issues"
+  },
+  "homepage": "https://github.com/<orgname>/<reponame>#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.15.0",
+    "eslint-plugin-react": "^6.10.0",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "node-sass": "^4.5.0",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^5.0.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
