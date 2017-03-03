@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<orgname>/<reponame>.git"
+    "url": "git+https://github.com/ucladevx/website.git"
   },
   "keywords": [],
   "author": "xorkevin",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/<orgname>/<reponame>/issues"
+    "url": "https://github.com/ucladevx/website/issues"
   },
-  "homepage": "https://github.com/<orgname>/<reponame>#readme",
+  "homepage": "https://github.com/ucladevx/website#readme",
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-eslint": "^7.1.1",
