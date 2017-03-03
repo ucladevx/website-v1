@@ -1,0 +1,28 @@
+nav {
+  position: fixed;
+  z-index: 64;
+  width: 100%;
+
+  .navbar {
+    display: flex;
+    height: $navbar-height;
+    justify-content: space-between;
+    align-items: center;
+
+    .left, .right {
+      display: flex;
+
+      .item {
+        margin-right: 16px;
+
+        &:last-child {
+          margin-right: inherit;
+        }
+      }
+    }
+  }
+}
+
+.nav-spacer {
+  height: $navbar-height;
+}

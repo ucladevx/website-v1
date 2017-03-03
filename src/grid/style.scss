@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.grid-strict {
+  width: 100%;
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.grid {
+  @extend .grid-strict;
+  &>.col {
+    padding: $grid-vertical-padding $grid-gutter-padding;
+  }
+}
+
+.col {
+  float: left;
+  width: 100%;
+  max-width: 100%;
+}
+
+@mixin col-list($columns, $prefix) {
+  @for $i from 1 through $columns {
+    .col.#{$prefix}-#{$i} {
+      width: $i / $columns * 100%;
+    }
+  }
+}
+
+@include col-list(24, 'xs');
+
+@media (min-width: $grid-sm-breakpoint) {
+  @include col-list(24, 'sm');
+  .container {
+    max-width: $grid-sm-breakpoint * 15 / 16;
+  }
+}
+
+@media (min-width: $grid-md-breakpoint) {
+  @include col-list(24, 'md');
+  .container {
+    max-width: $grid-md-breakpoint * 15 / 16;
+  }
+}
+
+@media (min-width: $grid-lg-breakpoint) {
+  @include col-list(24, 'lg');
+  .container {
+    max-width: $grid-lg-breakpoint * 15 / 16;
+  }
+}
