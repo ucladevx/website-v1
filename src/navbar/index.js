@@ -11,10 +11,10 @@ class Navbar extends React.Component {
               &lt;Logo&gt;
             </div>
             <div className="right">
-              <div className="item">About</div>
-              <div className="item">Initiatives</div>
-              <div className="item">Join Team</div>
-              <div className="item">Apply</div>
+              <div className="item"><a className="no-style" href="#">About</a></div>
+              <div className="item"><a className="no-style" href="#">Initiatives</a></div>
+              <div className="item"><a className="no-style" href="#">Join Team</a></div>
+              <div className="item"><a className="no-style" href="#">Apply</a></div>
             </div>
           </div>
         </div>

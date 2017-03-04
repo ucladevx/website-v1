@@ -5,13 +5,23 @@ import {render} from 'react-dom';
 
 import Navbar from 'navbar';
 import Header from 'header';
+import Footer from 'footer';
 import Section from 'section';
+import Button from 'button';
 
 class App extends React.Component {
   render(){
     return <div>
       <Navbar />
-      <Header />
+      <Header>
+        <div>
+          <h1>Dev<span className="devx-header-x">X</span></h1>
+          <h3>Moonshots for UCLA</h3>
+          <Button>Mailing List</Button>
+          <Button>Apply</Button>
+        </div>
+        <div><h2>&lt;Image&gt;</h2></div>
+      </Header>
       <Section>
         <div className="blurb">
           <h1 className="title">About Us</h1>
@@ -37,6 +47,18 @@ class App extends React.Component {
         </div>
         <div><img src="/assets/join_team.png"/></div>
       </Section>
+      <Footer>
+        <div className="info">
+          <h1>Dev<span className="devx-footer-x">X</span></h1>
+          <h6>Copyright &copy; 2017 UCLA DevX</h6>
+          <div className="icons">
+            <a href="#"><img src="/assets/facebook_icon.png"/></a>
+            <a href="#"><img src="/assets/github_icon.png"/></a>
+            <a href="#"><img src="/assets/mail_icon.png"/></a>
+            <a href="#"><img src="/assets/youtube_icon.png"/></a>
+          </div>
+        </div>
+      </Footer>
     </div>;
   }
 }
