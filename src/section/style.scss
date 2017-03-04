@@ -5,7 +5,15 @@ section.section {
 
   &>.section-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+
+    .title {
+
+    }
+
+    .blurb {
+      max-width: 30em;
+    }
   }
 }

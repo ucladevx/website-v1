@@ -43,4 +43,13 @@ html, body {
   small {
     font-size: 0.85rem;
   }
+
+  p {
+    margin: 0 0 16px 0;
+    max-width: 42em;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
 }
