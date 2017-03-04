@@ -8,13 +8,13 @@ class Navbar extends React.Component {
         <div className="container">
           <div className="navbar">
             <div className="left">
-            DevX
+              &lt;Logo&gt;
             </div>
             <div className="right">
-            <div className="item">About</div>
-            <div className="item">Initiatives</div>
-            <div className="item">Join Team</div>
-            <div className="item">Apply</div>
+              <div className="item">About</div>
+              <div className="item">Initiatives</div>
+              <div className="item">Join Team</div>
+              <div className="item">Apply</div>
             </div>
           </div>
         </div>
