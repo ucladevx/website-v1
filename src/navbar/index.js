@@ -8,7 +8,7 @@ class Navbar extends React.Component {
         <div className="container">
           <div className="navbar">
             <div className="left">
-              &lt;Logo&gt;
+              <img src="/assets/logo.png"/>
             </div>
             <div className="right">
               <div className="item"><a className="no-style" href="#">About</a></div>

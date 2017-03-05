@@ -14,6 +14,20 @@ section.section {
 
     .blurb {
       max-width: 30em;
+      margin: auto;
+    }
+
+    .image-aside {
+      @media (max-width: $grid-md-breakpoint - 1) {
+        order: 1;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+      }
     }
   }
 }
