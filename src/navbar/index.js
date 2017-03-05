@@ -8,13 +8,15 @@ class Navbar extends React.Component {
         <div className="container">
           <div className="navbar">
             <div className="left">
-              <img src="/assets/logo.png"/>
+              <div className="logo">
+                <img src="/assets/logo.png"/>
+              </div>
             </div>
             <div className="right">
               <div className="item"><a className="no-style" href="#">About</a></div>
               <div className="item"><a className="no-style" href="#">Initiatives</a></div>
               <div className="item"><a className="no-style" href="#">Join Team</a></div>
-              <div className="item"><a className="no-style" href="#">Apply</a></div>
+              <div className="item"><a className="no-style apply-text" href="#">Apply ></a></div>
             </div>
           </div>
         </div>

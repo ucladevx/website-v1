@@ -7,6 +7,27 @@ header.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .title {
+      @media (max-width: $grid-sm-breakpoint - 1px) {
+        text-align: center;
+      }
+
+      margin: auto;
+    }
+
+    .image-aside {
+      @media (max-width: $grid-sm-breakpoint - 1px) {
+        order: 1;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+      }
+    }
   }
 
   font-size: 2rem;

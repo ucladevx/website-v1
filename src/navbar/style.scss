@@ -14,6 +14,16 @@ nav {
     .left, .right {
       display: flex;
 
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        img {
+          height: $navbar-height - 8px;
+        }
+      }
+
       .item {
         text-transform: uppercase;
         font-size: 1.2rem;
@@ -24,6 +34,11 @@ nav {
           margin-right: inherit;
         }
       }
+
+    }
+
+    .apply-text {
+      color: $color-accent;
     }
   }
 }

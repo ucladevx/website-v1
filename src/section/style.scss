@@ -18,7 +18,7 @@ section.section {
     }
 
     .image-aside {
-      @media (max-width: $grid-md-breakpoint - 1) {
+      @media (max-width: $grid-md-breakpoint - 1px) {
         order: 1;
       }
 

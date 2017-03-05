@@ -14,14 +14,18 @@ class App extends React.Component {
     return <div>
       <Navbar />
       <Header>
-        <div>
-          <h1>Dev<span className="devx-header-x">X</span></h1>
-          <h3>Moonshots for UCLA</h3>
-          <Button>Mailing List</Button>
-          <Button>Apply</Button>
-        </div>
-        <div>
-          <img src="/assets/main_graphic.png"/>
+        <div className="grid">
+          <div className="col sm-12">
+            <div className="title">
+              <h1>Dev<span className="devx-header-x">X</span></h1>
+              <h3>Moonshots for UCLA</h3>
+              <Button>Mailing List</Button>
+              <Button>Apply</Button>
+            </div>
+          </div>
+          <div className="col sm-12 image-aside">
+            <img src="/assets/main_graphic.png"/>
+          </div>
         </div>
       </Header>
       <Section>
