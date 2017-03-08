@@ -3,7 +3,11 @@ import {render} from 'react-dom';
 
 class Button extends React.Component {
   render(){
-    return <button className="button">
+    let k = ["button"];
+    if(this.props.cta){
+      k.push("call-to-action");
+    }
+    return <button className={k.join(" ")}>
       {this.props.children}
     </button>;
   }

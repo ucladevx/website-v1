@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700|Open+Sans:400,400i');
+
 $grid-sm-breakpoint: 768px !default;
 $grid-md-breakpoint: $grid-sm-breakpoint * 1.5 !default;
 $grid-lg-breakpoint: $grid-md-breakpoint * 1.5 !default;
@@ -8,7 +10,8 @@ $grid-gutter-padding: 8px !default;
 $navbar-height: 64px !default;
 
 $typography-base-size: 14px !default;
-$typography-base-font: 'Lato', sans-serif !default;
+$typography-base-font: 'Open Sans', sans-serif !default;
+$typography-header-font: 'Josefin Sans', sans-serif !default;
 
 $button-padding: 8px !default;
 $button-padding-h: 16px !default;

@@ -8,8 +8,23 @@ section.section {
     justify-content: space-around;
     align-items: center;
 
-    .title {
+    .head {
+      display: inline-block;
 
+      .title {
+        &:after {
+          display: block;
+          content: "";
+          bottom: 0;
+          margin: auto;
+          height: 4px;
+          width: 96px;
+          border-radius: 2px;
+          background-color: $color-primary;
+        }
+
+        margin-bottom: 0.5em;
+      }
     }
 
     .blurb {
