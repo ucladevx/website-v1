@@ -1,8 +1,7 @@
 import React from 'react';
-import {render} from 'react-dom';
 
 const scrollTo = (id)=>{
-  
+
 };
 
 class Navbar extends React.Component {

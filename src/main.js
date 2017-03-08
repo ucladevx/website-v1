@@ -8,6 +8,7 @@ import Header from 'header';
 import Footer from 'footer';
 import Section from 'section';
 import Button from 'button';
+import {FaIcon} from 'misc';
 
 class App extends React.Component {
   render(){
@@ -86,10 +87,10 @@ class App extends React.Component {
           <h1>Dev<span className="devx-footer-x">X</span></h1>
           <h6>Copyright &copy; 2017 UCLA DevX</h6>
           <div className="icons">
-            <a href="#"><img src="/assets/facebook_icon.png"/></a>
-            <a href="#"><img src="/assets/github_icon.png"/></a>
-            <a href="#"><img src="/assets/mail_icon.png"/></a>
-            <a href="#"><img src="/assets/youtube_icon.png"/></a>
+            <a href="#"><FaIcon icon="facebook"/></a>
+            <a href="#"><FaIcon icon="github"/></a>
+            <a href="#"><FaIcon icon="envelope"/></a>
+            <a href="#"><FaIcon icon="youtube"/></a>
           </div>
         </div>
       </Footer>
