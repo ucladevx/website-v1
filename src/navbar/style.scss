@@ -4,12 +4,16 @@ nav {
   width: 100%;
   box-shadow: 0px 1px 2px 0px rgba(0,0,0,.24), 0px 1px 4px 0px rgba(0,0,0,.11);
   background-color: rgba($white, 0.96);
+  overflow: hidden;
 
   .navbar {
     display: flex;
     height: $navbar-height;
     justify-content: space-between;
     align-items: center;
+    overflow: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
 
     .left, .right {
       display: flex;
@@ -48,7 +52,6 @@ nav {
           color: $color-accent;
         }
       }
-
     }
 
     .apply-text {

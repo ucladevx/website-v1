@@ -1,6 +1,10 @@
 import React from 'react';
 import {render} from 'react-dom';
 
+const scrollTo = (id)=>{
+  
+};
+
 class Navbar extends React.Component {
   render(){
     return <div>
@@ -17,7 +21,7 @@ class Navbar extends React.Component {
             <div className="right">
               <div className="item"><a className="no-style" href="#">About</a></div>
               <div className="item"><a className="no-style" href="#">Initiatives</a></div>
-              <div className="item"><a className="no-style" href="#">Join Team</a></div>
+              <div className="item"><a className="no-style" href="#">Join Us</a></div>
               <div className="item"><a className="no-style apply-text" href="#">Apply ></a></div>
             </div>
           </div>
