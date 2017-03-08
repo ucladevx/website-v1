@@ -42,6 +42,10 @@ section.section {
         max-width: 100%;
         height: auto;
         margin: auto;
+
+        @media (max-width: $grid-md-breakpoint - 1px) {
+          max-height: 256px;
+        }
       }
     }
   }
