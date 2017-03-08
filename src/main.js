@@ -17,10 +17,12 @@ class App extends React.Component {
         <div className="grid">
           <div className="col sm-12">
             <div className="title">
-              <h1>Dev<span className="devx-header-x">X</span></h1>
-              <h3>Moonshots for UCLA</h3>
-              <Button cta>Mailing List</Button>
-              <Button cta>Apply</Button>
+              <div className="inner">
+                <h1>Dev<span className="devx-header-x">X</span></h1>
+                <h3>Moonshots for UCLA</h3>
+                <Button cta>Mailing List</Button>
+                <Button cta>Apply</Button>
+              </div>
             </div>
           </div>
           <div className="col sm-12 image-aside">

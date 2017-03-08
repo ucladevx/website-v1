@@ -9,11 +9,16 @@ header.header {
     align-items: center;
 
     .title {
-      @media (max-width: $grid-sm-breakpoint - 1px) {
-        text-align: center;
-      }
+      text-align: center;
 
-      margin: auto;
+      .inner {
+        display: inline-block;
+        text-align: left;
+
+        @media (max-width: $grid-sm-breakpoint - 1px) {
+          text-align: center;
+        }
+      }
     }
 
     .image-aside {
