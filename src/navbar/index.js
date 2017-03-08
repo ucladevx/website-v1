@@ -9,7 +9,9 @@ class Navbar extends React.Component {
           <div className="navbar">
             <div className="left">
               <div className="logo">
-                <img src="/assets/logo.png"/>
+                <a className="no-style" href="#">
+                  <img src="/assets/logo.png"/>
+                </a>
               </div>
             </div>
             <div className="right">

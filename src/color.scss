@@ -3,4 +3,9 @@ $color-text-light: #FCFBFA !default;
 $color-accent: #FACC2C !default;
 $color-primary: #4ABF9F !default;
 $color-secondary: #FA682E !default;
+$background: #FBFBFF !default;
 $white: #FFFFFF !default;
+
+body {
+  background-color: $background;
+}

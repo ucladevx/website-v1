@@ -1,7 +1,12 @@
 section.section {
   display: flex;
   align-items: center;
+  background: no-repeat bottom/cover;
   min-height: 768px;
+
+  @media (min-width: $grid-sm-breakpoint) {
+    min-height: 100vh;
+  }
 
   &>.section-container {
     display: flex;

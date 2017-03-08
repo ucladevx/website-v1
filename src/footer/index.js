@@ -7,6 +7,7 @@ class Footer extends React.Component {
       <div className="container footer-container">
         {this.props.children}
       </div>
+      <img className="moon" src="/assets/moon.png"/>
     </footer>;
   }
 }

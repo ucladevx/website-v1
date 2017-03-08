@@ -2,6 +2,10 @@ footer.footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
+  background: no-repeat 50%/cover;
+  background-image: url(/assets/footer_bg.png);
+  color: $white;
 
   &>.footer-container {
     display: flex;
@@ -42,6 +46,10 @@ footer.footer {
         align-items: center;
       }
     }
+  }
+
+  img.moon {
+    width: 100%;
   }
 }
 

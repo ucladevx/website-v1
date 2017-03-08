@@ -1,7 +1,14 @@
 header.header {
   display: flex;
   align-items: center;
-  height: 768px;
+  background: no-repeat bottom/cover;
+  background-image: url(/assets/home_bg.png);
+  color: $white;
+  min-height: 768px;
+
+  @media (min-width: $grid-sm-breakpoint) {
+    min-height: 100vh;
+  }
 
   &>.header-container {
     display: flex;
