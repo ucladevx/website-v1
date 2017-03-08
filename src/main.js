@@ -85,13 +85,13 @@ class App extends React.Component {
       <Footer>
         <div className="info">
           <h1>Dev<span className="devx-footer-x">X</span></h1>
-          <h6>Copyright &copy; 2017 UCLA DevX</h6>
           <div className="icons">
             <a href="#"><FaIcon icon="facebook"/></a>
             <a href="#"><FaIcon icon="github"/></a>
             <a href="#"><FaIcon icon="envelope"/></a>
             <a href="#"><FaIcon icon="youtube"/></a>
           </div>
+          <small>Copyright &copy; 2017 UCLA DevX</small>
         </div>
       </Footer>
     </div>;
