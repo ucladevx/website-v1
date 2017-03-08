@@ -26,6 +26,10 @@ a.no-style {
   text-decoration: inherit;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 .text-center {
   text-align: center;
 }

@@ -5,7 +5,7 @@ import Button from 'button';
 
 class Section extends React.Component {
   render(){
-    return <section className="section" style={{
+    return <section id={this.props.id} className="section" style={{
       backgroundImage: 'url('+ this.props.background + ')',
       color: this.props.invert ? '#FFFFFF' : 'inherit',
     }}>

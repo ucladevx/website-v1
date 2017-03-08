@@ -8,12 +8,11 @@ import Header from 'header';
 import Footer from 'footer';
 import Section from 'section';
 import Button from 'button';
-import {FaIcon} from 'misc';
 
 class App extends React.Component {
   render(){
     return <div>
-      <Navbar />
+      <Navbar/>
       <Header>
         <div className="grid">
           <div className="col sm-12">
@@ -31,7 +30,7 @@ class App extends React.Component {
           </div>
         </div>
       </Header>
-      <Section background="/assets/about_us_bg.png">
+      <Section background="/assets/about_us_bg.png" id="about-us">
         <div className="grid">
           <div className="col md-12">
             <div className="blurb">
@@ -47,7 +46,7 @@ class App extends React.Component {
           </div>
         </div>
       </Section>
-      <Section invert background="/assets/initiatives_bg.png">
+      <Section invert background="/assets/initiatives_bg.png" id="initiatives">
         <div className="grid">
           <div className="col md-12 image-aside">
             <img src="/assets/initiatives.png"/>
@@ -64,7 +63,7 @@ class App extends React.Component {
           </div>
         </div>
       </Section>
-      <Section background="/assets/join_team_bg.png">
+      <Section background="/assets/join_team_bg.png" id="join-team">
         <div className="grid">
           <div className="col md-12">
             <div className="blurb">
@@ -82,18 +81,7 @@ class App extends React.Component {
           </div>
         </div>
       </Section>
-      <Footer>
-        <div className="info">
-          <h1>Dev<span className="devx-footer-x">X</span></h1>
-          <div className="icons">
-            <a href="#"><FaIcon icon="facebook"/></a>
-            <a href="#"><FaIcon icon="github"/></a>
-            <a href="#"><FaIcon icon="envelope"/></a>
-            <a href="#"><FaIcon icon="youtube"/></a>
-          </div>
-          <small>Copyright &copy; 2017 UCLA DevX</small>
-        </div>
-      </Footer>
+      <Footer/>
     </div>;
   }
 }
