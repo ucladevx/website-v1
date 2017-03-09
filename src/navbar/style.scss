@@ -11,12 +11,13 @@ nav {
     height: $navbar-height;
     justify-content: space-between;
     align-items: center;
-    overflow: auto;
     overflow-y: hidden;
+    overflow-x: auto;
     white-space: nowrap;
 
     .left, .right {
       display: flex;
+      padding: 8px;
 
       .logo {
         display: flex;
