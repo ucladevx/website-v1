@@ -23,15 +23,21 @@ nav {
         align-items: center;
         justify-content: space-around;
 
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+        }
+
         img {
-          height: $navbar-height - 8px;
+          height: $navbar-height - 16px;
         }
       }
 
       .item {
         text-transform: uppercase;
-        font-weight: 700;
-        font-size: 1.2rem;
+        font-weight: 600;
+        font-size: 0.85rem;
         letter-spacing: 3px;
         margin-right: 16px;
         transition: 0.125s cubic-bezier(0.4, 0, 0.2, 1);

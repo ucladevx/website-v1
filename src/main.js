@@ -19,7 +19,7 @@ class App extends React.Component {
             <div className="title">
               <div className="inner">
                 <h1>Dev<span className="devx-header-x">X</span></h1>
-                <h3>Moonshots for UCLA</h3>
+                <h4>Moonshots for UCLA</h4>
                 <Button cta>Mailing List</Button>
                 <Button cta>Apply</Button>
               </div>
@@ -34,11 +34,13 @@ class App extends React.Component {
         <div className="grid">
           <div className="col md-12">
             <div className="blurb">
-              <div className="head">
-                <h1 className="title">About Us</h1>
+              <div className="inner">
+                <div className="head">
+                  <h1 className="title">About Us</h1>
+                </div>
+                <p>Have you ever felt that all you were learning at UCLA was theory, with little opportunities to build out practical applications?</p>
+                <p>DevX is a brand new organization at UCLA dedicated to solving that very problem! Build out real-world projects to help tackle pressing problems frustrating the UCLA community, grow your technical skills by pairing up with experienced students, and build a network that lasts beyond graduation.</p>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet felis urna. Mauris id fringilla sapien. Nam eleifend malesuada tristique. Suspendisse maximus interdum posuere. In ipsum sapien, hendrerit non dapibus et, luctus eu sem. Suspendisse sed ipsum erat.</p>
-              <p>Aenean maximus purus ultricies libero fermentum, efficitur facilisis dolor pharetra. Praesent et magna ac nibh ultrices efficitur. Proin congue euismod lobortis. Donec eget egestas purus. Sed dignissim nunc arcu, ullamcorper viverra libero interdum convallis. Pellentesque id interdum lacus. Praesent tempus, enim vel finibus porttitor, sem massa scelerisque justo, id suscipit lorem mauris vel sem.</p>
             </div>
           </div>
           <div className="col md-12 image-aside">
@@ -53,12 +55,14 @@ class App extends React.Component {
           </div>
           <div className="col md-12">
             <div className="blurb">
-              <div className="head">
-                <h1 className="title">Initiatives</h1>
+              <div className="inner">
+                <div className="head">
+                  <h1 className="title">Initiatives</h1>
+                </div>
+                <p>We focus on a wide variety of projects, but prioritize ventures that  improve the college experience for UCLA students.</p>
+                <p>Every quarter we will develop solutions for the most popular intiatives by the community. Submit your own requests for problems you’re facing.</p>
+                <Button cta>Request</Button>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet felis urna. Mauris id fringilla sapien. Nam eleifend malesuada tristique. Suspendisse maximus interdum posuere. In ipsum sapien, hendrerit non dapibus et, luctus eu sem.</p>
-              <p>Aenean maximus purus ultricies libero fermentum, efficitur facilisis dolor pharetra. Praesent et magna ac nibh ultrices efficitur. Proin congue euismod lobortis. Donec eget egestas purus. Sed dignissim nunc arcu, ullamcorper viverra libero interdum convallis. Praesent tempus, enim vel finibus porttitor, sem massa scelerisque justo, id suscipit lorem mauris vel sem.</p>
-              <Button cta>Request</Button>
             </div>
           </div>
         </div>
@@ -67,13 +71,14 @@ class App extends React.Component {
         <div className="grid">
           <div className="col md-12">
             <div className="blurb">
-              <div className="head">
-                <h1 className="title">Join Us</h1>
+              <div className="inner">
+                <div className="head">
+                  <h1 className="title">Join Us</h1>
+                </div>
+                <p>We are looking to bring talented developers, designers, and product managers every quarter!</p>
+                <p>If you are interested in joining our DevX team, fill out the application form, and we will invite select candidates for interviews.</p>
+                <Button cta>Apply</Button>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet felis urna. Mauris id fringilla sapien. Nam eleifend malesuada tristique. Suspendisse maximus interdum posuere. In ipsum sapien, hendrerit non dapibus et, luctus eu sem. Suspendisse sed ipsum erat.</p>
-              <p>Aenean maximus purus ultricies libero fermentum, efficitur facilisis dolor pharetra. Praesent et magna ac nibh ultrices efficitur. Proin congue euismod lobortis. Donec eget egestas purus. Sed dignissim nunc arcu, ullamcorper viverra libero interdum convallis. Pellentesque id interdum lacus.</p>
-              <p>Praesent tempus, enim vel finibus porttitor, sem massa scelerisque justo, id suscipit lorem mauris vel sem.</p>
-              <Button cta>Apply</Button>
             </div>
           </div>
           <div className="col md-12 image-aside">

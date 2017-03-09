@@ -12,7 +12,7 @@ section.section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 128px 0;
+    padding: 64px 0 128px;
 
     .head {
       display: inline-block;
@@ -23,7 +23,7 @@ section.section {
           content: "";
           bottom: 0;
           margin: auto;
-          height: 4px;
+          height: 6px;
           width: 96px;
           border-radius: 2px;
           background-color: $color-primary;
@@ -34,8 +34,17 @@ section.section {
     }
 
     .blurb {
-      max-width: 30em;
-      margin: auto;
+      text-align: center;
+
+      .inner {
+        display: inline-block;
+        max-width: 20em;
+        text-align: left;
+
+        p {
+          max-width: 24em;
+        }
+      }
     }
 
     .image-aside {
@@ -46,6 +55,7 @@ section.section {
       img {
         display: block;
         max-width: 100%;
+        max-height: 384px;
         height: auto;
         margin: auto;
 

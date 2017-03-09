@@ -56,7 +56,6 @@ class Navbar extends React.Component {
           </div>
         </div>
       </nav>
-      <div className="nav-spacer"></div>
     </div>;
   }
 }
