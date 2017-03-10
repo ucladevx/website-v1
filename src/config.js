@@ -1,12 +1,12 @@
 export default {
   url: {
-    apply: '#',
-    mailingList: '#',
-    workRequest: '#',
+    apply: 'https://goo.gl/forms/rYP2wJbvx9aVgnOg2',
+    mailingList: 'http://eepurl.com/cFOmXH',
+    workRequest: 'https://goo.gl/forms/ZmiidAbizEhYDMnG3',
     social: {
       fb: '#',
-      gh: '#',
-      em: '#',
+      gh: 'https://github.com/ucladevx',
+      em: 'mailto:ucladevx@gmail.com',
       yt: '#',
     },
   },
