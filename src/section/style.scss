@@ -1,68 +1,78 @@
 section.section {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  background: no-repeat bottom/cover;
-  min-height: 768px;
-
-  @media (min-width: $grid-sm-breakpoint) {
-    min-height: 100vh;
-  }
+  background: no-repeat bottom/contain;
 
   &>.section-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 64px 0 128px;
+    width: 100%;
 
-    .head {
-      display: inline-block;
+    &>.container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 32px 0 64px;
+      min-height: 768px;
 
-      .title {
-        &:after {
-          display: block;
-          content: "";
-          bottom: 0;
-          margin: auto;
-          height: 6px;
-          width: 96px;
-          border-radius: 2px;
-          background-color: $color-primary;
-        }
-
-        margin-bottom: 0.5em;
+      @media (min-width: $grid-sm-breakpoint) {
+        min-height: 100vh;
       }
-    }
 
-    .blurb {
-      text-align: center;
-
-      .inner {
+      .head {
         display: inline-block;
-        max-width: 20em;
-        text-align: left;
 
-        p {
-          max-width: 24em;
+        .title {
+          &:after {
+            display: block;
+            content: "";
+            bottom: 0;
+            margin: auto;
+            height: 6px;
+            width: 96px;
+            border-radius: 2px;
+            background-color: $color-primary;
+          }
+
+          margin-bottom: 0.5em;
         }
       }
-    }
 
-    .image-aside {
-      @media (max-width: $grid-md-breakpoint - 1px) {
-        order: 1;
+      .blurb {
+        text-align: center;
+
+        .inner {
+          display: inline-block;
+          max-width: 20em;
+          text-align: left;
+
+          p {
+            max-width: 24em;
+          }
+        }
       }
 
-      img {
-        display: block;
-        max-width: 100%;
-        max-height: 384px;
-        height: auto;
-        margin: auto;
-
+      .image-aside {
         @media (max-width: $grid-md-breakpoint - 1px) {
-          max-height: 256px;
+          order: 1;
+        }
+
+        img {
+          display: block;
+          max-width: 100%;
+          max-height: 384px;
+          height: auto;
+          margin: auto;
+
+          @media (max-width: $grid-md-breakpoint - 1px) {
+            max-height: 256px;
+          }
         }
       }
     }
+  }
+
+  &>img.section-divider {
+    width: 100%;
   }
 }

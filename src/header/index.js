@@ -7,6 +7,7 @@ class Header extends React.Component {
       <div className="container header-container">
         {this.props.children}
       </div>
+      <img className="header-divider" src="/assets/home_bg.png"/>
     </header>;
   }
 }

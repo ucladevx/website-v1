@@ -1,19 +1,20 @@
 header.header {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  background: no-repeat bottom/cover;
-  background-image: url(/assets/home_bg.png);
+  background: no-repeat bottom/contain;
   color: $white;
-  min-height: 768px;
-
-  @media (min-width: $grid-sm-breakpoint) {
-    min-height: 112vh;
-  }
 
   &>.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 768px;
+
+    @media (min-width: $grid-sm-breakpoint) {
+      min-height: 100vh;
+    }
 
     .title {
       text-align: center;
@@ -40,6 +41,10 @@ header.header {
         margin: auto;
       }
     }
+  }
+
+  img.header-divider {
+    width: 100%;
   }
 
   font-size: 2rem;

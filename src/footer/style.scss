@@ -3,8 +3,7 @@ footer.footer {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  background: no-repeat top/cover;
-  background-image: url(/assets/footer_bg.png);
+  background: no-repeat bottom/contain;
   color: $white;
 
   &>.footer-container {

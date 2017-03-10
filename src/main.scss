@@ -8,3 +8,8 @@
 @import "footer/style";
 @import "section/style";
 @import "button/style";
+
+body {
+  background: no-repeat center/cover fixed;
+  background-image: url(/assets/bg_1.png);
+}
