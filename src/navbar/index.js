@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Config from 'config';
+
 const scrollTime = 384;
 
 const easing = (t)=>{
@@ -51,7 +53,7 @@ class Navbar extends React.Component {
               <div className="item"><a className="no-style" onClick={()=>{scrollTo('about-us', scrollTime);}}>About</a></div>
               <div className="item"><a className="no-style" onClick={()=>{scrollTo('initiatives', scrollTime);}}>Initiatives</a></div>
               <div className="item"><a className="no-style" onClick={()=>{scrollTo('join-team', scrollTime);}}>Join Us</a></div>
-              <div className="item"><a className="no-style apply-text" href="#">Apply ></a></div>
+              <div className="item"><a target="_blank" rel="noopener noreferrer" className="no-style apply-text" href={Config.url.apply}>Apply ></a></div>
             </div>
           </div>
         </div>

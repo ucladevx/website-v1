@@ -9,6 +9,21 @@ class FaIcon extends React.Component {
   }
 }
 
+class Anchor extends React.Component {
+  render(){
+    let k = {};
+    if(this.props.ext){
+      k = {
+        target: "_blank",
+        rel: "noopener noreferrer",
+      };
+    }
+    return <a {...k} href={this.props.href}>
+      {this.props.children}
+    </a>;
+  }
+}
+
 export {
-  FaIcon
+  FaIcon, Anchor,
 }

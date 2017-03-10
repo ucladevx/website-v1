@@ -1,19 +1,21 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-import {FaIcon} from 'misc';
+import Config from 'config';
+
+import {Anchor} from 'misc';
 
 class Footer extends React.Component {
   render(){
     return <footer className="footer">
       <div className="container footer-container">
         <div className="info">
-          <h1>Dev<span className="devx-footer-x">X</span></h1>
+          <h2>Dev<span className="devx-footer-x">X</span></h2>
           <div className="icons">
-            <a href="#"><FaIcon icon="facebook"/></a>
-            <a href="#"><FaIcon icon="github"/></a>
-            <a href="#"><FaIcon icon="envelope"/></a>
-            <a href="#"><FaIcon icon="youtube"/></a>
+            <Anchor ext href={Config.url.social.fb}><img src="/assets/facebook_icon.png"/></Anchor>
+            <Anchor ext href={Config.url.social.gh}><img src="/assets/github_icon.png"/></Anchor>
+            <Anchor ext href={Config.url.social.em}><img src="/assets/mail_icon.png"/></Anchor>
+            <Anchor ext href={Config.url.social.yt}><img src="/assets/youtube_icon.png"/></Anchor>
           </div>
           <small>Copyright &copy; 2017 UCLA DevX</small>
         </div>

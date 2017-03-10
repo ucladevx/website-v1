@@ -3,11 +3,15 @@ import 'main.scss';
 import React from 'react';
 import {render} from 'react-dom';
 
+import Config from 'config';
+
 import Navbar from 'navbar';
 import Header from 'header';
 import Footer from 'footer';
 import Section from 'section';
 import Button from 'button';
+
+import {Anchor} from 'misc';
 
 class App extends React.Component {
   render(){
@@ -20,8 +24,8 @@ class App extends React.Component {
               <div className="inner">
                 <h1>Dev<span className="devx-header-x">X</span></h1>
                 <h4>Moonshots for UCLA</h4>
-                <Button cta>Mailing List</Button>
-                <Button cta>Apply</Button>
+                <Anchor ext href={Config.url.mailingList}><Button cta>Mailing List</Button></Anchor>
+                <Anchor ext href={Config.url.apply}><Button cta>Apply</Button></Anchor>
               </div>
             </div>
           </div>
@@ -61,7 +65,7 @@ class App extends React.Component {
                 </div>
                 <p>We focus on a wide variety of projects, but prioritize ventures that  improve the college experience for UCLA students.</p>
                 <p>Every quarter we will develop solutions for the most popular intiatives by the community. Submit your own requests for problems you’re facing.</p>
-                <Button cta>Request</Button>
+                <Anchor ext href={Config.url.workRequest}><Button cta>Request</Button></Anchor>
               </div>
             </div>
           </div>
@@ -77,7 +81,7 @@ class App extends React.Component {
                 </div>
                 <p>We are looking to bring talented developers, designers, and product managers every quarter!</p>
                 <p>If you are interested in joining our DevX team, fill out the application form, and we will invite select candidates for interviews.</p>
-                <Button cta>Apply</Button>
+                <Anchor ext href={Config.url.apply}><Button cta>Apply</Button></Anchor>
               </div>
             </div>
           </div>
