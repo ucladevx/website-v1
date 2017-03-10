@@ -4,10 +4,10 @@ export default {
     mailingList: 'http://eepurl.com/cFOmXH',
     workRequest: 'https://goo.gl/forms/ZmiidAbizEhYDMnG3',
     social: {
-      fb: '#',
+      fb: 'https://www.facebook.com/groups/ucladevx/',
       gh: 'https://github.com/ucladevx',
       em: 'mailto:ucladevx@gmail.com',
-      yt: '#',
+      yt: 'https://www.youtube.com/channel/UCf4uTKuKJe-Pg3zFRYpfNpA',
     },
   },
 }
