@@ -11,6 +11,7 @@ header.header {
     justify-content: space-between;
     align-items: center;
     min-height: 768px;
+    padding: 96px 0;
 
     @media (min-width: $grid-sm-breakpoint) {
       min-height: 100vh;
@@ -43,8 +44,9 @@ header.header {
     }
   }
 
-  img.header-divider {
-    width: 100%;
+  &>img.header-divider {
+    min-width: 100%;
+    min-height: 64px;
   }
 
   font-size: 2rem;
@@ -71,8 +73,4 @@ header.header {
     margin: 0;
     line-height: 1.25;
   }
-}
-
-.devx-header-x {
-  color: $color-accent;
 }

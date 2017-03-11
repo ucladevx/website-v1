@@ -28,10 +28,27 @@ nav {
           display: flex;
           align-items: center;
           justify-content: space-around;
+
+          img {
+            height: $navbar-height - 16px;
+          }
+
+          .logotext {
+            padding-top: 6px;
+            margin: 0 16px;
+            display: inline-block;
+            font-family: $typography-header-font;
+            font-weight: 600;
+            font-size: 1.5rem;
+            line-height: 1;
+            transition: 0.125s cubic-bezier(0.4, 0, 0.2, 1);
+          }
         }
 
-        img {
-          height: $navbar-height - 16px;
+        &:hover {
+          .logotext {
+            color: $color-accent;
+          }
         }
       }
 

@@ -22,7 +22,7 @@ class App extends React.Component {
           <div className="col sm-12">
             <div className="title">
               <div className="inner">
-                <h1>Dev<span className="devx-header-x">X</span></h1>
+                <h1>Dev<span className="devx-x">X</span></h1>
                 <h4>Moonshots for UCLA</h4>
                 <Anchor ext href={Config.url.mailingList}><Button cta>Mailing List</Button></Anchor>
                 <Anchor ext href={Config.url.apply}><Button cta>Apply</Button></Anchor>

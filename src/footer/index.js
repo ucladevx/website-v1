@@ -11,7 +11,7 @@ class Footer extends React.Component {
     return <footer className="footer">
       <div className="container footer-container">
         <div className="info">
-          <h2>Dev<span className="devx-footer-x">X</span></h2>
+          <h2>Dev<span className="devx-x">X</span></h2>
           <div className="icons">
             <Anchor ext href={Config.url.social.fb}><FaIcon invert icon="facebook"/></Anchor>
             <Anchor ext href={Config.url.social.gh}><FaIcon invert icon="github"/></Anchor>

@@ -46,6 +46,7 @@ class Navbar extends React.Component {
               <div className="logo">
                 <a className="no-style" onClick={()=>{scrollTo(false, scrollTime);}}>
                   <img src="/assets/logo.png"/>
+                  <div className="logotext">ACM Dev<span className="devx-x">X</span></div>
                 </a>
               </div>
             </div>
