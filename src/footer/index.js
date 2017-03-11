@@ -3,6 +3,7 @@ import {render} from 'react-dom';
 
 import Config from 'config';
 
+import FaIcon from 'faicon';
 import {Anchor} from 'misc';
 
 class Footer extends React.Component {
@@ -12,10 +13,10 @@ class Footer extends React.Component {
         <div className="info">
           <h2>Dev<span className="devx-footer-x">X</span></h2>
           <div className="icons">
-            <Anchor ext href={Config.url.social.fb}><img src="/assets/facebook_icon.png"/></Anchor>
-            <Anchor ext href={Config.url.social.gh}><img src="/assets/github_icon.png"/></Anchor>
-            <Anchor ext href={Config.url.social.em}><img src="/assets/mail_icon.png"/></Anchor>
-            <Anchor ext href={Config.url.social.yt}><img src="/assets/youtube_icon.png"/></Anchor>
+            <Anchor ext href={Config.url.social.fb}><FaIcon invert icon="facebook"/></Anchor>
+            <Anchor ext href={Config.url.social.gh}><FaIcon invert icon="github"/></Anchor>
+            <Anchor ext href={Config.url.social.em}><FaIcon invert icon="envelope"/></Anchor>
+            <Anchor ext href={Config.url.social.yt}><FaIcon invert icon="youtube"/></Anchor>
           </div>
           <small>Copyright &copy; 2017 UCLA DevX</small>
         </div>
