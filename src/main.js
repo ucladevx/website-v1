@@ -43,7 +43,7 @@ class App extends React.Component {
                   <h1 className="title">About Us</h1>
                 </div>
                 <p>Have you ever felt that all you were learning at UCLA was theory, with little opportunities to build out practical applications?</p>
-                <p>DevX is a brand new organization at UCLA dedicated to solving that very problem! Build out real-world projects to help tackle pressing problems frustrating the UCLA community, grow your technical skills by pairing up with experienced students, and build a network that lasts beyond graduation.</p>
+                <p>DevX is a brand new program, launched by UCLA ACM, dedicated to solving that very problem! Build out real-world projects to help tackle pressing problems frustrating the UCLA community, grow your technical skills by pairing up with experienced students, and build a network that lasts beyond graduation.</p>
               </div>
             </div>
           </div>
