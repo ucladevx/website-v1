@@ -63,8 +63,8 @@ class App extends React.Component {
                 <div className="head">
                   <h1 className="title">Initiatives</h1>
                 </div>
-                <p>We focus on a wide variety of projects, but prioritize ventures that  improve the college experience for UCLA students.</p>
-                <p>Every quarter we will develop solutions for the most popular intiatives by the community. Submit your own requests for problems you’re facing.</p>
+                <p>Want to build a revamped test bank, or maybe the next Bruinwalk? DevX will focus on creating things that improve the college experience for UCLA students, and is looking forward to building the unique projects that you propose.</p>
+                <p>Every quarter we will pick the most popular ideas, and develop a solution that will then get released to the public. Submit your own requests for problems you’re facing, we welcome ideas from everyone.</p>
                 <Anchor ext href={Config.url.workRequest}><Button cta>Request</Button></Anchor>
               </div>
             </div>
@@ -79,8 +79,8 @@ class App extends React.Component {
                 <div className="head">
                   <h1 className="title">Join Us</h1>
                 </div>
-                <p>We are looking to bring talented developers, designers, and product managers every quarter!</p>
-                <p>If you are interested in joining our DevX team, fill out the application form, and we will invite select candidates for interviews.</p>
+                <p>We are looking to hire talented developers, designers, product managers, and interns every quarter! The interview process will be a mix of technical and behavioral questions, but will largely depend on your passion and time commitment for the club.</p>
+                <p>If you are interested in joining our DevX team, fill out the application form. Applications are due by <strong>Sunday, April 2nd at 11:59 PM.</strong></p>
                 <Anchor ext href={Config.url.apply}><Button cta>Apply</Button></Anchor>
               </div>
             </div>
