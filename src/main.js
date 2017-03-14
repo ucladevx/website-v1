@@ -79,7 +79,7 @@ class App extends React.Component {
                 <div className="head">
                   <h1 className="title">Join Us</h1>
                 </div>
-                <p>We are looking to hire talented developers, designers, product managers, and interns every quarter! The interview process will be a mix of technical and behavioral questions, but will largely depend on your passion for the club.</p>
+                <p>We are looking to hire talented developers, designers, and product managers every quarter! The interview process will be a mix of technical and behavioral questions, but will largely depend on your passion for the club.</p>
                 <p>If you are interested in joining our DevX team, fill out the application form. <strong>Applications are due by Sunday, April 2nd at 11:59 PM.</strong></p>
                 <Anchor ext href={Config.url.apply}><Button cta>Apply</Button></Anchor>
               </div>
