@@ -14,7 +14,7 @@ class Section extends React.Component {
       <div className="section-container" style={{
         backgroundColor: this.props.invert ? 'transparent' : '#FBFBFF',
       }}>
-        <div className="container">
+        <div className={this.props.column ? "container column" : "container"}>
           {this.props.children}
         </div>
       </div>

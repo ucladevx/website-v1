@@ -1,0 +1,24 @@
+.title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: no-repeat bottom/contain;
+  padding: 64px 8px;
+  min-height: 256px;
+
+  h1, h2, h3, h4, h5, h6 {
+    &:after {
+      display: block;
+      content: "";
+      bottom: 0;
+      margin: auto;
+      height: 6px;
+      width: 96px;
+      border-radius: 2px;
+      background-color: $color-primary;
+    }
+
+    margin-bottom: 0.5em;
+  }
+}

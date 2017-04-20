@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 import Config from 'config';
 
@@ -44,16 +45,13 @@ class Navbar extends React.Component {
           <div className="navbar">
             <div className="left">
               <div className="logo">
-                <a className="no-style" onClick={()=>{scrollTo(false, scrollTime);}}>
-                  <div className="logotext">ACM Dev<span className="devx-x">X</span></div>
-                </a>
+                <Link to="/" className="no-style"><div className="logotext">ACM Dev<span className="devx-x">X</span></div></Link>
               </div>
             </div>
             <div className="right">
-              <div className="item"><a className="no-style" onClick={()=>{scrollTo('about-us', scrollTime);}}>About</a></div>
-              <div className="item"><a className="no-style" onClick={()=>{scrollTo('initiatives', scrollTime);}}>Initiatives</a></div>
-              <div className="item"><a className="no-style" onClick={()=>{scrollTo('join-team', scrollTime);}}>Join Us</a></div>
-              <div className="item"><a target="_blank" rel="noopener noreferrer" className="no-style apply-text" href={Config.url.apply}>Apply ></a></div>
+              <div className="item"><Link to="/" className="no-style">Home</Link></div>
+              <div className="item"><Link to="/team" className="no-style">View Team</Link></div>
+              <div className="item"><Link to="/projects" className="no-style apply-text">Projects &gt;</Link></div>
             </div>
           </div>
         </div>
