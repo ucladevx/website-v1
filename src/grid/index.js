@@ -3,7 +3,11 @@ import {render} from 'react-dom';
 
 class Container extends React.Component {
   render(){
-    return <div className="container">
+    let k = ['container'];
+    if(this.props.constrained){
+      k.push('constrained');
+    }
+    return <div className={k.join(' ')}>
       {this.props.children}
     </div>;
   }

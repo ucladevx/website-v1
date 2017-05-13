@@ -5,10 +5,11 @@ import Button from 'button';
 
 class Section extends React.Component {
   render(){
-    let k2 = {
-
-    };
-    return <section id={this.props.id} className="section" style={{
+    let k = ['section'];
+    if(this.props.large){
+      k.push('large');
+    }
+    return <section id={this.props.id} className={k.join(' ')} style={{
       color: this.props.invert ? '#FFFFFF' : 'inherit',
     }}>
       <div className="section-container" style={{

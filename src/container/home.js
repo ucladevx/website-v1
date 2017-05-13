@@ -31,7 +31,7 @@ class Home extends React.Component {
           </div>
         </div>
       </Header>
-      <Section background="/assets/about_us_bg.png" id="about-us">
+      <Section large background="/assets/about_us_bg.png" id="about-us">
         <div className="grid">
           <div className="col md-12">
             <div className="blurb">
@@ -49,7 +49,7 @@ class Home extends React.Component {
           </div>
         </div>
       </Section>
-      <Section invert background="/assets/initiatives_bg.png" id="initiatives">
+      <Section invert large background="/assets/initiatives_bg.png" id="initiatives">
         <div className="grid">
           <div className="col md-12 image-aside">
             <img src="/assets/initiatives.png"/>
@@ -68,7 +68,7 @@ class Home extends React.Component {
           </div>
         </div>
       </Section>
-      <Section background="/assets/join_team_bg.png" id="join-team">
+      <Section large background="/assets/join_team_bg.png" id="join-team">
         <div className="grid">
           <div className="col md-12">
             <div className="blurb">

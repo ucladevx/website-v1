@@ -45,7 +45,7 @@ class Navbar extends React.Component {
           <div className="navbar">
             <div className="left">
               <div className="logo">
-                <Link to="/" className="no-style"><div className="logotext">ACM Dev<span className="devx-x">X</span></div></Link>
+                <Link to="/" className="no-style"><div className="logotext">UCLA Dev<span className="devx-x">X</span></div></Link>
               </div>
             </div>
             <div className="right">

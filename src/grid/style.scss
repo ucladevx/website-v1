@@ -8,11 +8,15 @@ html, body {
   margin: auto;
 }
 
+.container.constrained {
+  max-width: $container-constrained;
+}
+
 .grid-strict {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: wrap;
 
   &:after {
@@ -24,6 +28,9 @@ html, body {
 
 .grid {
   @extend .grid-strict;
+  &.align-start {
+    align-items: flex-start;
+  }
   &>.col {
     padding: $grid-vertical-padding $grid-gutter-padding;
   }
@@ -50,6 +57,10 @@ html, body {
   .container {
     max-width: $grid-sm-breakpoint * 15 / 16;
   }
+
+  .container.constrained {
+    max-width: $container-constrained;
+  }
 }
 
 @media (min-width: $grid-md-breakpoint) {
@@ -57,11 +68,19 @@ html, body {
   .container {
     max-width: $grid-md-breakpoint * 15 / 16;
   }
+
+  .container.constrained {
+    max-width: $container-constrained;
+  }
 }
 
 @media (min-width: $grid-lg-breakpoint) {
   @include col-list(24, 'lg');
   .container {
     max-width: $grid-lg-breakpoint * 15 / 16;
+  }
+
+  .container.constrained {
+    max-width: $container-constrained;
   }
 }
