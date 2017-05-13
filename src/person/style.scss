@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 8px;
+  padding: 16px;
   font-size: 0.8em;
   font-weight: 300;
 
@@ -16,6 +16,6 @@
     object-fit: cover;
     width: 100%;
     height: auto;
-    max-width: 256px;
+    max-width: 192px;
   }
 }

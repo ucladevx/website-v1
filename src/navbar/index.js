@@ -51,7 +51,8 @@ class Navbar extends React.Component {
             <div className="right">
               <div className="item"><Link to="/" className="no-style">Home</Link></div>
               <div className="item"><Link to="/team" className="no-style">View Team</Link></div>
-              <div className="item"><Link to="/projects" className="no-style apply-text">Projects &gt;</Link></div>
+              <div className="item"><Link to="/projects" className="no-style">Projects</Link></div>
+              <div className="item"><Link to="/projects" className="no-style apply-text">Demo Day &gt;</Link></div>
             </div>
           </div>
         </div>

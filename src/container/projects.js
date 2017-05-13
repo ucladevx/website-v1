@@ -9,65 +9,62 @@ import Title from 'title';
 
 import {Anchor} from 'misc';
 
-
-class Projects extends React.Component {
+class Proj extends React.Component {
   render(){
-    return <div>
-      <Title invert><h1>Projects</h1></Title>
-      <Section invert>
+    if(this.props.flip){
+      return <Section invert>
         <div className="grid">
-          <div className="col md-12">
-            <div className="blurb">
-              <div className="inner">
-                <div className="head">
-                  <h1 className="title">Project 1</h1>
-                </div>
-                <p>Have you ever felt that all you were learning at UCLA was theory, with little opportunities to build out practical applications?</p>
-                <p>DevX is a brand new program, launched by UCLA ACM, dedicated to solving that very problem! Build out real-world projects to help tackle pressing problems frustrating the UCLA community, grow your technical skills by pairing up with experienced students, and build a network that lasts beyond graduation.</p>
-              </div>
-            </div>
-          </div>
           <div className="col md-12 image-aside">
             <img src="/assets/about_us.png"/>
           </div>
-        </div>
-      </Section>
-      <Section invert>
-        <div className="grid">
-          <div className="col md-12 image-aside">
-            <img src="/assets/initiatives.png"/>
-          </div>
           <div className="col md-12">
             <div className="blurb">
               <div className="inner">
                 <div className="head">
-                  <h1 className="title">Project 2</h1>
+                  <h1 className="title">{this.props.name}</h1>
                 </div>
-                <p>Want to build a revamped test bank, or maybe the next Bruinwalk? DevX will focus on creating things that improve the college experience for UCLA students, and is looking forward to building the unique projects that you propose.</p>
-                <p>Every quarter we will pick the most popular ideas, and develop a solution that will then get released to the public. Submit your own requests for problems you’re facing, we welcome ideas from everyone.</p>
+                <p>{this.props.description}</p>
               </div>
             </div>
           </div>
         </div>
-      </Section>
-      <Section invert>
-        <div className="grid">
-          <div className="col md-12">
-            <div className="blurb">
-              <div className="inner">
-                <div className="head">
-                  <h1 className="title">Project 3</h1>
-                </div>
-                <p>We are looking to hire talented developers, designers, and product managers every quarter! The interview process will be a mix of technical and behavioral questions, but will largely depend on your passion for the club.</p>
-                <p>If you are interested in joining our DevX team, fill out the application form. <strong>Applications are due by Tuesday, April 4th at 11:59 PM.</strong></p>
+      </Section>;
+    }
+    return <Section invert>
+      <div className="grid">
+        <div className="col md-12">
+          <div className="blurb">
+            <div className="inner">
+              <div className="head">
+                <h1 className="title">{this.props.name}</h1>
               </div>
+              <p>{this.props.description}</p>
             </div>
           </div>
-          <div className="col md-12 image-aside">
-            <img src="/assets/join_team.png"/>
-          </div>
         </div>
-      </Section>
+        <div className="col md-12 image-aside">
+          <img src="/assets/about_us.png"/>
+        </div>
+      </div>
+    </Section>;
+  }
+}
+
+
+class Projects extends React.Component {
+  render(){
+    let k = [];
+    let proj = Config.projects.year2017;
+    for(let i = 0; i < proj.length; i++){
+      if(i % 2 == 0) {
+        k.push(<Proj {...proj[i]}/>);
+      } else {
+        k.push(<Proj flip {...proj[i]}/>);
+      }
+    }
+    return <div>
+      <Title invert><h1>Projects</h1></Title>
+      {k}
       <Footer/>
     </div>;
   }
