@@ -9,6 +9,7 @@ import Navbar from 'navbar';
 import Home from 'container/home';
 import Team from 'container/team';
 import Projects from 'container/projects';
+import DemoDay from 'container/demoday';
 
 class App extends React.Component {
   render(){
@@ -20,6 +21,7 @@ class App extends React.Component {
             <Route exact path="/" component={Home}/>
             <Route path="/team" component={Team}/>
             <Route path="/projects" component={Projects}/>
+            <Route path="/demoday" component={DemoDay}/>
             <Redirect to="/"/>
           </Switch>
         </div>
