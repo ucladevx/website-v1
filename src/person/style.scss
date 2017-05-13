@@ -5,6 +5,12 @@
   justify-content: center;
   text-align: center;
   padding: 8px;
+  font-size: 0.8em;
+  font-weight: 300;
+
+  p {
+    font-size: 0.9em;
+  }
 
   &>.profile-picture {
     object-fit: cover;
