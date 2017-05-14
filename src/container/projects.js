@@ -15,7 +15,7 @@ class Proj extends React.Component {
       return <Section invert>
         <div className="grid">
           <div className="col md-12 image-aside">
-            <img src="/assets/about_us.png"/>
+            <img src={this.props.image}/>
           </div>
           <div className="col md-12">
             <div className="blurb">
@@ -43,7 +43,7 @@ class Proj extends React.Component {
           </div>
         </div>
         <div className="col md-12 image-aside">
-          <img src="/assets/about_us.png"/>
+          <img src={this.props.image}/>
         </div>
       </div>
     </Section>;
