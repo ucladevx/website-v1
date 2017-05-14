@@ -39,8 +39,8 @@ class DemoDay extends React.Component {
                 <div className="head">
                   <h1 className="title">What?</h1>
                 </div>
-                <p>Have you ever felt that all you were learning at UCLA was theory, with little opportunities to build out practical applications?</p>
-                <p>DevX is a brand new program, launched by UCLA ACM, dedicated to solving that very problem! Build out real-world projects to help tackle pressing problems frustrating the UCLA community, grow your technical skills by pairing up with experienced students, and build a network that lasts beyond graduation.</p>
+                <p>Demo Day is our quarterly event to showcase the cool projects we’re working on. It’s the chance for all of you to come and get involved in DevX!</p>
+                <p>Watch us pitch 8 incredible projects this quarter, tackling problems from online dating to student government funding. Learn more by clicking below!</p>
                 <Link to="/projects" className="no-style"><Button cta>Projects</Button></Link>
               </div>
             </div>
@@ -61,8 +61,8 @@ class DemoDay extends React.Component {
                 <div className="head">
                   <h1 className="title">Schedule</h1>
                 </div>
-                <p>We focus on a wide variety of projects, but prioritize ventures that improve the college experience for UCLA students.</p>
-                <p>Every quarter we will develop solutions for the most popular initiatives by the community. Submit your own requests for problems you're facing.</p>
+                <p>Explore our schedule and map out your demo day experience.</p>
+                <p>We will have live demos of all the projects, as well a networking mixer at the end to give everybody a chance to interact with the project participants. Whether you want to observe, or  actively participate come join us for Demo Day!</p>
               </div>
             </div>
           </div>
@@ -76,8 +76,8 @@ class DemoDay extends React.Component {
                 <div className="head">
                   <h1 className="title">Sponsors</h1>
                 </div>
-                <p>We are looking to bring talented developers, designers, and product managers every quarter!</p>
-                <p>We have hired our team for the spring, if you're still interested in joining make sure to apply next quarter. Check out our current team!</p>
+                <p>Demo Day is powered by our incredible sponsors, without whom we could not pull of this event.</p>
+                <p>If you’re an entity outside UCLA, and are interested in participating. Please read our sponsorship package, and  consider supporting our organization. Thank You!</p>
                 <Anchor ext href={Config.url.demoday.sponsor}><Button cta>Sponsor Us</Button></Anchor>
               </div>
             </div>

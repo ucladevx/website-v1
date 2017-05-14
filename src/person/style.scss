@@ -14,8 +14,9 @@
 
   &>.profile-picture {
     object-fit: cover;
-    width: 100%;
-    height: auto;
-    max-width: 192px;
+    width: 192px;
+    height: 192px;
+    max-height: 192px;
+    max-width: 100%;
   }
 }
