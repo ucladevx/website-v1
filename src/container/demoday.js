@@ -46,14 +46,14 @@ class DemoDay extends React.Component {
             </div>
           </div>
           <div className="col md-12 image-aside">
-            <img src="/assets/join_team.png"/>
+            <img src="/assets/demoday1.png"/>
           </div>
         </div>
       </Section>
       <Section invert id="demoday-schedule">
         <div className="grid">
           <div className="col md-12 image-aside">
-            <img src="/assets/initiatives.png"/>
+            <img src="/assets/demoday2.png"/>
           </div>
           <div className="col md-12">
             <div className="blurb">
@@ -83,7 +83,7 @@ class DemoDay extends React.Component {
             </div>
           </div>
           <div className="col md-12 image-aside">
-            <img src="/assets/join_team.png"/>
+            <img src="/assets/demoday3.png"/>
           </div>
         </div>
       </Section>

@@ -6,6 +6,7 @@ import Header from 'header';
 import Footer from 'footer';
 import Section from 'section';
 import Title from 'title';
+import Button from 'button';
 
 import {Anchor} from 'misc';
 
@@ -24,6 +25,7 @@ class Proj extends React.Component {
                   <h1 className="title">{this.props.name}</h1>
                 </div>
                 <p>{this.props.description}</p>
+                {this.props.url && <Anchor ext href={this.props.url}><Button cta>{this.props.urlText}</Button></Anchor>}
               </div>
             </div>
           </div>
@@ -39,6 +41,7 @@ class Proj extends React.Component {
                 <h1 className="title">{this.props.name}</h1>
               </div>
               <p>{this.props.description}</p>
+              {this.props.url && <Anchor ext href={this.props.url}><Button cta>{this.props.urlText}</Button></Anchor>}
             </div>
           </div>
         </div>
