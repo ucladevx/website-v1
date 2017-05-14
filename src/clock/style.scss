@@ -1,3 +1,28 @@
 .clock {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
+    width: 128px;
+    height: 128px;
+    color: $black;
+    margin: 8px;
+    border-radius: 8px;
+    font-family: $typography-header-font;
+    font-weight: 600;
+
+    .number {
+      font-size: 2rem;
+    }
+
+    .label {
+      font-size: 0.9rem;
+    }
+  }
 }
