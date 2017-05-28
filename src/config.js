@@ -15,7 +15,7 @@ export default {
     },
   },
   demoday: {
-    time: 1496800800000,
+    time: 1496887200000,
   },
   projects: {
     year2017: [

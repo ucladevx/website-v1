@@ -20,7 +20,7 @@ class DemoDay extends React.Component {
             <div className="title">
               <div className="inner">
                 <h1>Demo<span className="devx-x">Day</span></h1>
-                <h4>Tuesday, June 6th | 7 pm</h4>
+                <h4>Wednesday, June 7th | 7 pm</h4>
                 <Anchor ext href={Config.url.demoday.rsvp}><Button cta>RSVP</Button></Anchor>
                 <Anchor ext href={Config.url.demoday.sponsor}><Button cta>Sponsor</Button></Anchor>
               </div>
