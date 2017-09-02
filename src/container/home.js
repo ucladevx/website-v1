@@ -22,7 +22,6 @@ class Home extends React.Component {
                 <h1>Dev<span className="devx-x">X</span></h1>
                 <h4>Moonshots for UCLA</h4>
                 <Anchor ext href={Config.url.mailingList}><Button cta>Mailing List</Button></Anchor>
-                <Link to="/demoday"><Button cta>Demo Day</Button></Link>
               </div>
             </div>
           </div>
