@@ -17,20 +17,26 @@ export default {
   demoday: {
     time: 1496887200000,
   },
+  years: ['2017_2'],
+  yearnames: {
+    '2017_2': {
+      stylized: 'Spring 2017',
+      name: 'Apollo',
+    },
+  },
   projects: {
-    year2017: [
+    '2017_2': [
       {name: 'Bruin Scope', image: '/assets/projects/bruin_scope.png', description: 'One stop shop for all things technical interview related, catered specially to Bruins with the goal of improving the quality of engineers UCLA produces and broadening the job scope for all those out there aiming to land their dream company. BruinScope aims to become the home of interview experiences, questions and general forum discussions for the latest and greatest in the technical interviewing world, whether that be for Software, Product Management or Design.'},
       {name: 'Membership Portal', image: '/assets/projects/acm_membership.png', description: 'Born directly from the former Devops team of ACM, the goal of this project is to answer the long time need for a membership and general club management system in ACM. The project aims to make it easy for club administration to view member\'s attendance, update events, and add a competitive element to attending those events with a points and level system, and a leaderboard. The goal is to have the system be adopted by other organizations around campus.'},
       {name: 'Bruin Scan', image: '/assets/projects/bruin_scan.png', description: 'Our goal is to make planning your classes easier. The lack of spots in required lectures is impacting too many student\'s graduations and/or 4-year plans. BruinScan fixes this by sending notifying students when their classes open up. All a student needs to do is sign up and choose the class(es) they want, and we will do the rest. We will store their class information and phone number in our database and as soon as the class opens up on the registrar, we will send them a text.'},
       {name: 'Bruin Meet', image: '/assets/projects/bruin_meet.png', description: 'UCLA is a huge school, and students often have trouble finding partners or groups to study, dine, or go to social events with. With Bruin Meet, we want this experience to be easier and more approachable for all students. BM will provide a safe community for students to openly invite each other with all relevant information in one place. This project is built with React and Django with a goal to create a clean and secure interface for all users.'},
       {name: 'Bruin Academy', image: '/assets/projects/bruin_academy.png', description: 'TThe disparity between women and underrepresented minorities who pass introductory computer science courses and men who pass is one of the largest differences across UCLA. Bruin Academy is an online platform to provide support and resources to students who are struggling. The platform connects students with notes, tutorials and mastery-based learning, to better prepare them for success in these courses. The purpose is to eliminate any social, cultural, internal factors that may be preventing students from learning and understanding the material.'},
       {name: 'Bruin Speak', image: '/assets/projects/bruin_speak.png', description: 'At UCLA, there is often a disconnect between decision-makers, and those who are affected by their decisions. BruinSpeak allows for any student at UCLA to create proposals for changes that they would like to see on campus, as well as to voice their opinions about existing proposals. The desire is for student government organizations UCLA management to use this as a resource to see the changes that students are passionate about.'},
-      // {name: 'Bruin Connections', image: '/assets/projects/bruin_connections.png', url: 'http://bruinconnections.com', urlText: 'Bruin Connections', description: 'Bruin Connections is a matchmaking app exclusively for UCLA students. Our campus is large and it’s easy to get lost in the sea of students. It can be difficult to find people you truly connect with . We hope that with this app, you can meet students who you wouldn’t normally cross paths with, make new friends and have fun.'},
       {name: 'Loop', image: '/assets/projects/loop.png', description: 'Loop is an innovative way to trade, buy, and sell. Users pick what textbooks they want and what they\'re willing to trade for them (or prices to buy/sell at), and our algorithm will do the rest.\nBy comparing book lists of all of our users, Loop automatically generates the smartest trade circles that maximize the number of people who get what they want, with almost no effort involved on the part of the user. People who get matched up with a sale or trade can then meet up in person to complete the exchange.'},
     ]
   },
   team: {
-    year2017: [
+    '2017_2': [
       {name: 'Erik Melton', title: 'Sr. Developer', image: '/assets/profiles/erik_melton.jpg', bio: 'In the jungle, the mighty jungle, the developer does not sleep tonight because of all of the coffee consumed.'},
       {name: 'Jayendra Jog', title: 'Sr. Developer', image: '/assets/profiles/jay_jog.jpg', bio: 'I played over a thousand games of tetris over winter break.'},
       {name: 'Jahan Cherian', title: 'Product Manager', image: '/assets/profiles/jahan_cherian.jpg', bio: 'Vim enthusiast, Rails lover, Go proponent, C++ die-hard fan. All I care about is good friends, great code, awesome projects and having one hell of a lit time.'},

@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link, withRouter} from 'react-router-dom';
 
 import Config from 'config';
 
@@ -56,8 +57,10 @@ class Proj extends React.Component {
 
 class Projects extends React.Component {
   render(){
-    let k = [];
-    let proj = Config.projects.year2017;
+    const year = this.props.match.params.year;
+    const {stylized} = Config.yearnames[year];
+    const proj = Config.projects[year];
+    const k = [];
     for(let i = 0; i < proj.length; i++){
       if(i % 2 == 0) {
         k.push(<Proj {...proj[i]}/>);
@@ -66,11 +69,13 @@ class Projects extends React.Component {
       }
     }
     return <div>
-      <Title invert><h1>Projects</h1></Title>
+      <Title invert><h1>Projects {stylized}</h1></Title>
       {k}
       <Footer/>
     </div>;
   }
 }
+
+Projects = withRouter(Projects);
 
 export default Projects

@@ -13,6 +13,7 @@ import {Anchor} from 'misc';
 
 class Home extends React.Component {
   render(){
+    const year = Config.years[0];
     return <div>
       <Header background="/assets/home_bg.png">
         <div className="grid">
@@ -77,7 +78,7 @@ class Home extends React.Component {
                 </div>
                 <p>We are looking to bring talented developers, designers, and product managers every quarter!</p>
                 <p>We have hired our team for the spring, if you're still interested in joining make sure to apply next quarter. Check out our current team!</p>
-                <Link to="/team"><Button cta>View Team</Button></Link>
+                <Link to={`/team/${year}`}><Button cta>View Team</Button></Link>
               </div>
             </div>
           </div>

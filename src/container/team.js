@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link, withRouter} from 'react-router-dom';
 
 import Config from 'config';
 
@@ -14,14 +15,16 @@ import {Anchor} from 'misc';
 
 class Team extends React.Component {
   render(){
+    const year = this.props.match.params.year;
+    const {stylized, name} = Config.yearnames[year];
+    const team = Config.team[year];
     const k = [];
-    const team = Config.team.year2017;
     for(let i = 0; i < team.length; i++){
       k.push(<Person {...team[i]}/>);
     }
 
     return <div>
-      <Title invert><h1>Team</h1></Title>
+      <Title invert><h1>{name} {stylized}</h1></Title>
       <Section invert column>
         <Container constrained>
           <div className="grid align-start">
@@ -33,5 +36,7 @@ class Team extends React.Component {
     </div>;
   }
 }
+
+Team = withRouter(Team);
 
 export default Team

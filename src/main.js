@@ -14,13 +14,13 @@ import DemoDay from 'container/demoday';
 class App extends React.Component {
   render(){
     return <div>
-      <Router>
+      <Router onUpdate={() => window.scrollTo(0, 0)}>
         <div>
           <Navbar/>
           <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/team" component={Team}/>
-            <Route path="/projects" component={Projects}/>
+            <Route path="/team/:year" component={Team}/>
+            <Route path="/projects/:year" component={Projects}/>
             <Route path="/demoday" component={DemoDay}/>
             <Redirect to="/"/>
           </Switch>
