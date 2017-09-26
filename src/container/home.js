@@ -22,6 +22,7 @@ class Home extends React.Component {
               <div className="inner">
                 <h1>Dev<span className="devx-x">X</span></h1>
                 <h4>Moonshots for UCLA</h4>
+                <Anchor ext href={Config.url.apply}><Button cta>Apply</Button></Anchor>
                 <Anchor ext href={Config.url.mailingList}><Button cta>Mailing List</Button></Anchor>
               </div>
             </div>
@@ -76,9 +77,8 @@ class Home extends React.Component {
                 <div className="head">
                   <h1 className="title">Join Us</h1>
                 </div>
-                <p>We are looking to bring talented developers, designers, and product managers every quarter!</p>
-                <p>We have hired our team for the spring, if you're still interested in joining make sure to apply next quarter. Check out our current team!</p>
-                <Link to={`/team/${year}`}><Button cta>View Team</Button></Link>
+                <p>We are looking to bring talented developers, designers, and product managers for Fall 2017! All backgrounds and skill levels are welcome!</p>
+                <Anchor ext href={Config.url.apply}><Button cta>Apply</Button></Anchor>
               </div>
             </div>
           </div>
