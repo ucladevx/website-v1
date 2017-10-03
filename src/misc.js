@@ -9,7 +9,12 @@ class Anchor extends React.Component {
         rel: "noopener noreferrer",
       };
     }
-    return <a className="no-style" {...k} href={this.props.href}>
+    const j = ["no-style"];
+    if(this.props.className){
+      j.push(this.props.className);
+    }
+
+    return <a className={j.join(" ")} {...k} href={this.props.href}>
       {this.props.children}
     </a>;
   }

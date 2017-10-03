@@ -13,6 +13,9 @@ export default {
       em: 'mailto:ucladevx@gmail.com',
       yt: 'https://www.youtube.com/channel/UCf4uTKuKJe-Pg3zFRYpfNpA',
     },
+    sponsor: {
+      stickermule: "https://www.stickermule.com/",
+    },
   },
   demoday: {
     time: 1496887200000,
