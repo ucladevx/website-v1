@@ -88,7 +88,7 @@ class Home extends React.Component {
         </div>
       </Section>
       <Section invert>
-        <span>a special thanks to <Anchor ext className="underline" href={Config.url.sponsor.stickermule}>Stickermule</Anchor> for supporting us!</span>
+        <span>a special thanks to <Anchor ext className="underline" href={Config.url.sponsor.stickermule}>Sticker Mule</Anchor> for supporting us!</span>
       </Section>
       <Footer/>
     </div>;
