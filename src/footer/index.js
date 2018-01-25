@@ -8,6 +8,8 @@ import {Anchor} from 'misc';
 
 class Footer extends React.Component {
   render(){
+    const year = new Date().getFullYear();
+
     return <footer className="footer">
       <div className="container footer-container">
         <div className="info">
@@ -18,7 +20,7 @@ class Footer extends React.Component {
             <Anchor ext href={Config.url.social.em}><FaIcon invert icon="envelope"/></Anchor>
             <Anchor ext href={Config.url.social.yt}><FaIcon invert icon="youtube"/></Anchor>
           </div>
-          <small>Copyright &copy; 2017 UCLA DevX</small>
+          <small>Copyright &copy; {year} UCLA DevX</small>
         </div>
       </div>
       <img className="moon" src="/assets/moon.png"/>

@@ -8,8 +8,9 @@
   font-size: 0.8em;
   font-weight: 300;
 
-  p {
+  a {
     font-size: 0.9em;
+    color: $color-accent;
   }
 
   &>.profile-picture {

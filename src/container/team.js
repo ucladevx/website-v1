@@ -17,7 +17,7 @@ class Team extends React.Component {
   render(){
     const year = this.props.match.params.year;
     const {stylized, name} = Config.yearnames[year];
-    const team = Config.team[year];
+    const team = Config.team[year] || [];
     const k = [];
     for(let i = 0; i < team.length; i++){
       k.push(<Person {...team[i]}/>);

@@ -10,6 +10,7 @@ import Home from 'container/home';
 import Team from 'container/team';
 import Projects from 'container/projects';
 import DemoDay from 'container/demoday';
+import Alumni from 'container/alumni';
 
 class App extends React.Component {
   render(){
@@ -21,6 +22,7 @@ class App extends React.Component {
             <Route exact path="/" component={Home}/>
             <Route path="/team/:year" component={Team}/>
             <Route path="/projects/:year" component={Projects}/>
+            <Route path="/alumni" component={Alumni}/>
             <Route path="/demoday" component={DemoDay}/>
             <Redirect to="/"/>
           </Switch>

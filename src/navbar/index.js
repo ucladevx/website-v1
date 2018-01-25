@@ -39,7 +39,8 @@ const scrollTo = (element, duration)=>{
 
 class Navbar extends React.Component {
   render(){
-    const year = Config.years[0];
+    const mostRecentSeason = Config.years.length -1;
+    const year = Config.years[mostRecentSeason];
     return <div>
       <nav>
         <div className="container">
@@ -51,8 +52,9 @@ class Navbar extends React.Component {
             </div>
             <div className="right">
               <div className="item"><Link to="/" className="no-style">Home</Link></div>
-              <div className="item"><Link to={`/team/${year}`} className="no-style">View Team</Link></div>
+              <div className="item"><Link to={`/team/${year}`} className="no-style">Team</Link></div>
               <div className="item"><Link to={`/projects/${year}`} className="no-style">Projects</Link></div>
+              <div className="item"><Link to={`/alumni`} className="no-style">Alumni</Link></div>
             </div>
           </div>
         </div>

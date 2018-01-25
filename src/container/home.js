@@ -24,9 +24,6 @@ class Home extends React.Component {
                     Dev<span className="devx-x">X</span>
                   </h1>
                   <h4>Moonshots for UCLA</h4>
-                  <Anchor ext href={Config.url.applyPM}>
-                    <Button cta>Apply for PM</Button>
-                  </Anchor>
                   <Anchor ext href={Config.url.mailingList}>
                     <Button cta>Mailing List</Button>
                   </Anchor>
@@ -108,13 +105,13 @@ class Home extends React.Component {
                     <h1 className="title">Join Us</h1>
                   </div>
                   <p>
-                    We are looking to bring talented developers, designers, and
-                    product managers for Winter 2018! All backgrounds and skill
-                    levels are welcome! Currently PM apps are open! Dev apps
-                    will open soon.
+                    We are looking to bring on talented developers, designers, and
+                    product managers for Spring 2018! All backgrounds and skill
+                    levels are welcome! Join the mailing list to get updates on 
+                    when the application opens.
                   </p>
-                  <Anchor ext href={Config.url.applyPM}>
-                    <Button cta>Apply for PM</Button>
+                  <Anchor ext href={Config.url.mailingList}>
+                    <Button cta>Mailing List</Button>
                   </Anchor>
                 </div>
               </div>

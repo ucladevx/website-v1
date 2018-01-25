@@ -59,7 +59,7 @@ class Projects extends React.Component {
   render(){
     const year = this.props.match.params.year;
     const {stylized} = Config.yearnames[year];
-    const proj = Config.projects[year];
+    const proj = Config.projects[year] || [];
     const k = [];
     for(let i = 0; i < proj.length; i++){
       if(i % 2 == 0) {
@@ -68,6 +68,7 @@ class Projects extends React.Component {
         k.push(<Proj flip {...proj[i]}/>);
       }
     }
+
     return <div>
       <Title invert><h1>Projects {stylized}</h1></Title>
       {k}
