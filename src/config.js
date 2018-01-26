@@ -24,30 +24,30 @@ export default {
   demoday: {
     time: 1521082800000,
   },
-  years: ['2017_2', '2017_3'],
+  years: ['spring2017', 'fall2017'],
   yearnames: {
-    '2017_2': {
+    'spring2017': {
       stylized: 'Spring 2017',
       name: 'Apollo',
       blurb: ''
     },
-    '2017_3': {
+    'fall2017': {
       stylized: 'Fall 2017',
       name: 'Cassini'
     },
-    '2018_1': {
+    'winter2018': {
       stylized: 'Winter 2018',
       name: 'Dawn'
     }
   },
   projects: {
-    '2017_2': spring2017.data.teams,
-    '2017_3': fall2017.data.teams,
-    '2018_1': fall2017.data.teams,
+    'spring2017': spring2017.data.teams,
+    'fall2017': fall2017.data.teams,
+    'winter2018': fall2017.data.teams,
   },
   team: {
-    '2017_2': spring2017.data.members,
-    '2017_3': fall2017.data.members,
-    '2018_1': fall2017.data.members,
+    'spring2017': spring2017.data.members,
+    'fall2017': fall2017.data.members,
+    'winter2018': fall2017.data.members,
   },
 };
