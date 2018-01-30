@@ -1,0 +1,596 @@
+{
+    "schema":2,
+    "data":{
+        "teams":[
+            {
+                "name":"Bruin Manager",
+                "description":"replace this.",
+                "image":"/assets/projects/"
+            },
+            {
+                "name":"Don't Eat Alone",
+                "description":"replace this.",
+                "image":"/assets/projects/"
+            },
+            {
+                "name":"BPool",
+                "description":"BPool is a transportation app designed to help facilitate carpooling among UCLA students. The platform serves as a centralized database for all common rides driven by UCLA students. Via this interface, users can easily find or share rides to increase carpooling.",
+                "image":"/assets/projects/bpool.png"
+            },
+            {
+                "name":"BruinMeet",
+                "description":"Making dating fun and easy at UCLA",
+                "image":"/assets/projects/bruin_meet.jpg"
+            },
+            {
+                "name":"BruinScan",
+                "description":"Our goal is to make planning your classes easier. The lack of spots in required lectures is impacting too many student's graduations and/or 4-year plans. BruinScan fixes this by sending notifying students when their classes open up. All a student needs to do is sign up and choose the class(es) they want, and we will do the rest. We will store their class information and phone number in our database and as soon as the class opens up on the registrar, we will send them a text.",
+                "image":"/assets/projects/bruin_scan.png"
+            },
+            {
+                "name":"BruinSpeak",
+                "description":"At UCLA, there is often a disconnect between decision-makers, and those who are affected by their decisions. BruinSpeak allows for any student at UCLA to create proposals for changes that they would like to see on campus, as well as to voice their opinions about existing proposals. The desire is for student government organizations UCLA management to use this as a resource to see the changes that students are passionate about.",
+                "image":"/assets/projects/bruin_speak.png"
+            },
+            {
+                "name":"Loop",
+                "description":"Loop is an innovative way to trade, buy, and sell. Users pick what textbooks they want and what they're willing to trade for them (or prices to buy/sell at), and our algorithm will do the rest. By comparing book lists of all of our users, Loop automatically generates the smartest trade circles that maximize the number of people who get what they want, with almost no effort involved on the part of the user. People who get matched up with a sale or trade can then meet up in person to complete the exchange.",
+                "image":"/assets/projects/loop.png"
+            },
+            {
+                "name":"Mappening",
+                "description":"At UCLA, there are over 1,000 student organizations constantly holding events, club meetings and fundraisers, yet students struggle to discover interesting events through all the noise. Mappening gathers all the events from across the Bruinwalk flyers, department calendars, and Facebook events into a single platform. Students can stop missing events they care about and start discovering some new ones through a simple, highly visual map. Mappening encourages students to explore everything UCLA has to offer and participate in the action happening around UCLA everyday.",
+                "image":"/assets/projects/mappening.png"
+            },
+            {
+                "name":"BQuest",
+                "description":"BQuest helps new Bruins find the right major. On BQuest, undeclared or undecided students can connect with major ambassadors, who they can meet for coffee on campus. Get a chance to ask experienced students the questions you have about their major, and be better prepared to make a decision, that will be just right for you. For experienced students, BQuest is a good way to give back to the UCLA community. Become an ambassador and show fellow bruins what is great about your major.",
+                "image":"/assets/projects/bquest.jpg"
+            },
+            {
+                "name":"StudySmart",
+                "description":"StudySmart gives students instant access to all the information they need about the best study spots on campus. Whether it's how busy a library is, what time the Hedrick Study closes, or where to reserve a YRL pod, all the answers are found in a single application that is updated in real-time. Spare yourself the stress - StudySmart!",
+                "image":"/assets/projects/study_smart.png"
+            },
+            {
+                "name":"DevX Internal Dev Team",
+                "description":"replace this.",
+                "image":"/assets/projects/"
+            }
+        ],
+        "members":[
+            {
+                "name":"Jahan Kuruvilla Cherian",
+                "github":"jcherianucla",
+                "team":"Board",
+                "title":"President",
+                "image":"/assets/profiles/jahan_cherian.jpg"
+            },
+            {
+                "name":"Cody Ley-Han",
+                "github":"codyleyhan",
+                "team":"Board",
+                "title":"External Vice President",
+                "image":"/assets/profiles/cody_ley_han.jpg"
+            },
+            {
+                "name":"Rishub Kumar",
+                "github":"rishub",
+                "team":"Board",
+                "title":"Internal Vice President",
+                "image":"/assets/profiles/rishub_kumar.jpg"
+            },
+            {
+                "name":"Kevin Wang",
+                "github":"xorkevin",
+                "team":"Board",
+                "title":"Director of DevOps",
+                "image":"/assets/profiles/kevin_wang.jpg"
+            },
+            {
+                "name":"Nikhil Kansal",
+                "github":"nkansal96",
+                "team":"Board",
+                "title":"CTO",
+                "image":"/assets/profiles/nikhil_kansal.jpg"
+            },
+            {
+                "name":"Justin Liu",
+                "github":"jl98",
+                "team":"Board",
+                "title":"Director of Design",
+                "image":"/assets/profiles/justin_liu.jpg"
+            },
+            {
+                "name":"Karen Fann",
+                "github":"karenfann",
+                "team":"Board",
+                "title":"Director of Finance",
+                "image":"/assets/profiles/karen_fann.jpg"
+            },
+            {
+                "name":"Ram Goli",
+                "github":"ramsgoli",
+                "team":"Board",
+                "title":"Director of Marketing",
+                "image":"/assets/profiles/ram_goli.jpg"
+            },
+            {
+                "name":"Aravind Sripathy",
+                "github":"asripathy",
+                "team":"BPool",
+                "title":"Developer",
+                "image":"/assets/profiles/aravind_sripathy.jpg"
+            },
+            {
+                "name":"George Archbold",
+                "github":"garchbold",
+                "team":"BPool",
+                "title":"Product Manager",
+                "image":""
+            },
+            {
+                "name":"Jiunn Siow",
+                "github":"siowleo",
+                "team":"BPool",
+                "title":"Developer",
+                "image":"/assets/profiles/leo_siow.jpg"
+            },
+            {
+                "name":"Roslyn Lu",
+                "github":"roslynlu",
+                "team":"BPool",
+                "title":"Developer",
+                "image":"/assets/profiles/roslyn_lu.jpg"
+            },
+            {
+                "name":"Samar Seth",
+                "github":"samarseth",
+                "team":"BPool",
+                "title":"Developer",
+                "image":"/assets/profiles/samar_seth.jpg"
+            },
+            {
+                "name":"Shannon Phu",
+                "github":"shannonphu",
+                "team":"BPool",
+                "title":"Developer",
+                "image":"/assets/profiles/shannon_phu.jpg"
+            },
+            {
+                "name":"Swetha Akella",
+                "github":"swethaakella",
+                "team":"BPool",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/swetha_akella.jpg"
+            },
+            {
+                "name":"Yinghao (Howard) Wang",
+                "github":"howardwang15",
+                "team":"BPool",
+                "title":"Jr. Developer",
+                "image":""
+            },
+            {
+                "name":"Aidan Wolk",
+                "github":"awolk",
+                "team":"BruinMeet",
+                "title":"Developer",
+                "image":"/assets/profiles/aidan_wolk.jpg"
+            },
+            {
+                "name":"Bibek Ghimire",
+                "github":"bibekg",
+                "team":"BruinMeet",
+                "title":"Developer",
+                "image":"/assets/profiles/bibek_ghimire.jpg"
+            },
+            {
+                "name":"Christopher Aziz",
+                "github":"caziz",
+                "team":"BruinMeet",
+                "title":"Developer",
+                "image":"/assets/profiles/christopher_aziz.jpg"
+            },
+            {
+                "name":"Dmitri Brereton",
+                "github":"mitrikyle",
+                "team":"BruinMeet",
+                "title":"Product Manager",
+                "image":"/assets/profiles/dmitri_brereton.jpg"
+            },
+            {
+                "name":"Jeffrey Chan",
+                "github":"jeffreyxchan",
+                "team":"BruinMeet",
+                "title":"Developer",
+                "image":"/assets/profiles/jeffrey_chan.jpg"
+            },
+            {
+                "name":"Ken Gu",
+                "github":"codeKgu",
+                "team":"BruinMeet",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/ken_gu.jpg"
+            },
+            {
+                "name":"Melissa Peng",
+                "github":"melissapeng",
+                "team":"BruinMeet",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/melissa_peng.jpg"
+            },
+            {
+                "name":"Anirudh Balasubramaniam",
+                "github":"anirudhnkl",
+                "team":"BruinMeet",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/anirudh_balasubramaniam.jpg"
+            },
+            {
+                "name":"Arnav Garg",
+                "github":"arnavgrg",
+                "team":"BruinSpeak",
+                "title":"Designer",
+                "image":"/assets/profiles/arnav_garg.jpg"
+            },
+            {
+                "name":"Ashwin Vivek",
+                "github":"ashwin9798",
+                "team":"BruinSpeak",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/ashwin_vivek.jpg"
+            },
+            {
+                "name":"Brian Chan",
+                "github":"brianc725",
+                "team":"BruinSpeak",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/brian_chan.jpg"
+            },
+            {
+                "name":"Jennifer Xu",
+                "github":"jenxu",
+                "team":"BruinSpeak",
+                "title":"Developer",
+                "image":"/assets/profiles/jennifer_xu.jpg"
+            },
+            {
+                "name":"Katie Luangkote",
+                "github":"kluangkote",
+                "team":"BruinSpeak",
+                "title":"Developer",
+                "image":"/assets/profiles/katie_luangkote.jpg"
+            },
+            {
+                "name":"Taasin Saquib",
+                "github":"taasinsaquib",
+                "team":"BruinSpeak",
+                "title":"Developer",
+                "image":"/assets/profiles/taasin_saquib.jpg"
+            },
+            {
+                "name":"Aditya Raju",
+                "github":"adiraju13",
+                "team":"Loop",
+                "title":"Developer",
+                "image":"/assets/profiles/aditya_raju.jpg"
+            },
+            {
+                "name":"Jayendra Jog",
+                "github":"jayendrajog",
+                "team":"Loop",
+                "title":"Developer",
+                "image":"/assets/profiles/jay_jog.jpg"
+            },
+            {
+                "name":"Jerry Li",
+                "github":"jerrylinew",
+                "team":"Loop",
+                "title":"Product Manager",
+                "image":"/assets/profiles/jerry_li.jpg"
+            },
+            {
+                "name":"Karen Li",
+                "github":"codeKaren",
+                "team":"Loop",
+                "title":"Developer",
+                "image":"/assets/profiles/karen_li.jpg"
+            },
+            {
+                "name":"River Mist",
+                "github":"RivMist",
+                "team":"Loop",
+                "title":"Developer",
+                "image":""
+            },
+            {
+                "name":"Suyash Saxena",
+                "github":"suyashsax",
+                "team":"Loop",
+                "title":"Developer",
+                "image":"/assets/profiles/suyash_saxena.jpg"
+            },
+            {
+                "name":"William Shao",
+                "github":"wllmshao",
+                "team":"Loop",
+                "title":"Developer",
+                "image":"/assets/profiles/william_shao.jpg"
+            },
+            {
+                "name":"Hannah Elarabawy",
+                "github":"helarabawy",
+                "team":"Mappening",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/hannah_elarabawy.jpg"
+            },
+            {
+                "name":"Helen Lee",
+                "github":"helenhyewonlee",
+                "team":"Mappening",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/helen_lee.jpg"
+            },
+            {
+                "name":"Jason Xu",
+                "github":"jasonxu123",
+                "team":"Mappening",
+                "title":"Developer",
+                "image":"/assets/profiles/jason_xu.jpg"
+            },
+            {
+                "name":"Jorge Fuentes",
+                "github":"jsfuentes",
+                "team":"Mappening",
+                "title":"Product Manager",
+                "image":"/assets/profiles/jorge_fuentes.jpg"
+            },
+            {
+                "name":"Katrina Wijaya",
+                "github":"TrinaKat",
+                "team":"Mappening",
+                "title":"Developer",
+                "image":"/assets/profiles/katrina_wijaya.jpg"
+            },
+            {
+                "name":"Lucy Liao",
+                "github":"lucyliao",
+                "team":"Mappening",
+                "title":"Designer",
+                "image":"/assets/profiles/lucy_liao.jpg"
+            },
+            {
+                "name":"Tanzeela Khan",
+                "github":"tanzeelak",
+                "team":"Mappening",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/tanzeela_khan.jpg"
+            },
+            {
+                "name":"Alex Longerbeam",
+                "github":"alexlongerbeam",
+                "team":"BQuest",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/alex_longerbeam.jpg"
+            },
+            {
+                "name":"David Chen",
+                "github":"davidwchen",
+                "team":"BQuest",
+                "title":"Developer",
+                "image":"/assets/profiles/david_chen.jpg"
+            },
+            {
+                "name":"Dinkar Khattar",
+                "github":"dkok97",
+                "team":"BQuest",
+                "title":"Developer",
+                "image":"/assets/profiles/dinkar_khattar.jpg"
+            },
+            {
+                "name":"Krystal Xu",
+                "github":"Kissyourmisery",
+                "team":"BQuest",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/krystal_xu.jpg"
+            },
+            {
+                "name":"Linea Brink Andersen",
+                "github":"lineaba",
+                "team":"BQuest",
+                "title":"Product Manager",
+                "image":"/assets/profiles/linea_andersen.jpg"
+            },
+            {
+                "name":"Mark Tai",
+                "github":"marktai",
+                "team":"BQuest",
+                "title":"Tech Lead",
+                "image":"/assets/profiles/mark_tai.jpg"
+            },
+            {
+                "name":"Sanyam Grewal",
+                "github":"sgrewal12",
+                "team":"BQuest",
+                "title":"Developer",
+                "image":"/assets/profiles/sanyam_grewal.jpeg"
+            },
+            {
+                "name":"Wandi Liu",
+                "github":"wandiliu",
+                "team":"BQuest",
+                "title":"Designer",
+                "image":"/assets/profiles/wandi_liu.jpg"
+            },
+            {
+                "name":"Andrew Ding",
+                "github":"andrewxding",
+                "team":"StudySmart",
+                "title":"Developer",
+                "image":"/assets/profiles/andrew_ding.jpg"
+            },
+            {
+                "name":"Anirudh Veeraragavan",
+                "github":"aniveera1",
+                "team":"StudySmart",
+                "title":"Developer",
+                "image":"/assets/profiles/anirudh_veeraragavan.jpg"
+            },
+            {
+                "name":"Anton",
+                "github":"anton5798",
+                "team":"StudySmart",
+                "title":"Developer",
+                "image":""
+            },
+            {
+                "name":"Arti Arutiunov",
+                "github":"arutiunov",
+                "team":"StudySmart",
+                "title":"Product Manager",
+                "image":"/assets/profiles/arti_arutiunov.jpg"
+            },
+            {
+                "name":"Arvind Kumar",
+                "github":"akumar010",
+                "team":"StudySmart",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/arvind_kumar.jpg"
+            },
+            {
+                "name":"Joyce Chang",
+                "github":"joycepchang",
+                "team":"StudySmart",
+                "title":"Designer",
+                "image":"/assets/profiles/joyce_chang.jpg"
+            },
+            {
+                "name":"Katherine Miao",
+                "github":"thekatgoesmiao",
+                "team":"StudySmart",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/katherine_miao.jpg"
+            },
+            {
+                "name":"Parth Pendurkar",
+                "github":"parp1",
+                "team":"StudySmart",
+                "title":"Developer",
+                "image":"/assets/profiles/parth_pendurkar.jpg"
+            },
+            {
+                "name":"Christine Sun",
+                "github":"insomnolent",
+                "team":"BQuest",
+                "title":"Jr. Developer",
+                "image":""
+            },
+            {
+                "name":"Richard Yang",
+                "github":"ryang72",
+                "team":"Bruin Manager",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/richard_yang.jpg"
+            },
+            {
+                "name":"Kyle Wong",
+                "github":"kylewong975",
+                "team":"Bruin Manager",
+                "title":"Developer",
+                "image":"/assets/profiles/kyle_wong.jpg"
+            },
+            {
+                "name":"Amir Saad",
+                "github":"amirsaad2015",
+                "team":"Bruin Manager",
+                "title":"Developer",
+                "image":"/assets/profiles/amir_saad.jpg"
+            },
+            {
+                "name":"Sharon John",
+                "github":"sharon-john",
+                "team":"Bruin Manager",
+                "title":"Product Manager",
+                "image":"/assets/profiles/sharon_john.jpg"
+            },
+            {
+                "name":"Ashley Miao",
+                "github":"ash-ley-miao",
+                "team":"Bruin Manager",
+                "title":"Designer",
+                "image":"/assets/profiles/ashley_miao.jpg"
+            },
+            {
+                "name":"Austin Guo",
+                "github":"austinguo550",
+                "team":"DevX Internal Dev Team",
+                "title":"Developer",
+                "image":"/assets/profiles/austin_guo.jpg"
+            },
+            {
+                "name":"Destin Raymundo",
+                "github":"adrayv",
+                "team":"DevX Internal Dev Team",
+                "title":"Developer",
+                "image":"/assets/profiles/destin_raymundo.jpg"
+            },
+            {
+                "name":"Keiana Snell",
+                "github":"keianasnell",
+                "team":"DevX Internal Dev Team",
+                "title":"Developer",
+                "image":""
+            },
+            {
+                "name":"Arpit Jasapara",
+                "github":"ajasapara",
+                "team":"Don't Eat Alone",
+                "title":"Developer",
+                "image":"/assets/profiles/arpit_jasapara.jpg"
+            },
+            {
+                "name":"Philip Chen",
+                "github":"philipchen32",
+                "team":"Don't Eat Alone",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/philip_chen.jpg"
+            },
+            {
+                "name":"Haozhuo Huang",
+                "github":"haozhuo",
+                "team":"Don't Eat Alone",
+                "title":"Developer",
+                "image":""
+            },
+            {
+                "name":"Ayush Patel",
+                "github":"ayush-patel",
+                "team":"Don't Eat Alone",
+                "title":"Product Manager",
+                "image":"/assets/profiles/ayush_patel.jpg"
+            },
+            {
+                "name":"Ruth Shaffer",
+                "github":"",
+                "team":"Don't Eat Alone",
+                "title":"Designer",
+                "image":"/assets/profiles/ruth_shaffer.jpg"
+            },
+            {
+                "name":"Terrence Ho",
+                "github":"terrenceho",
+                "team":"Don't Eat Alone",
+                "title":"Developer",
+                "image":"/assets/profiles/terrence_ho.jpg"
+            },
+            {
+                "name":"Doroty Sanussi",
+                "github":"dhs766",
+                "team":"Mappening",
+                "title":"Product Manager",
+                "image":"/assets/profiles/doroty_sanussi.jpg"
+            }
+        ]
+    }
+}

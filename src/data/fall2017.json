@@ -119,7 +119,7 @@
                 "github": "siowleo",
                 "team": "BPool",
                 "title": "Developer",
-                "image": ""
+                "image": "/assets/profiles/leo_siow.jpg"
             },
             {
                 "name": "Roslyn Lu",
@@ -171,11 +171,11 @@
                 "image": "/assets/profiles/bibek_ghimire.jpg"
             },
             {
-                "name": "Christoper Aziz",
+                "name": "Christopher Aziz",
                 "github": "caziz",
                 "team": "BruinMeet",
                 "title": "Developer",
-                "image": "/assets/profiles/christoper_aziz.jpg"
+                "image": "/assets/profiles/christopher_aziz.jpg"
             },
             {
                 "name": "Dmitri Brereton",

@@ -1,5 +1,6 @@
 import spring2017 from 'data/spring2017';
 import fall2017 from 'data/fall2017';
+import winter2018 from 'data/winter2018';
 
 export default {
   url: {
@@ -43,11 +44,11 @@ export default {
   projects: {
     'spring2017': spring2017.data.teams,
     'fall2017': fall2017.data.teams,
-    'winter2018': fall2017.data.teams,
+    'winter2018': winter2018.data.teams,
   },
   team: {
     'spring2017': spring2017.data.members,
     'fall2017': fall2017.data.members,
-    'winter2018': fall2017.data.members,
+    'winter2018': winter2018.data.members,
   },
 };
