@@ -3,14 +3,14 @@
     "data":{
         "teams":[
             {
-                "name":"Bruin Manager",
-                "description":"replace this.",
-                "image":"/assets/projects/"
+                "name":"Don't Eat Alone",
+                "description":"Ever wanted to increase your connections at UCLA? Or just didn’t want to eat alone? Well “don’t eat alone” is here to match you up with people. Just put on the time and the dining hall you want to eat at and you are matched with an interesting individual. It’s going to make networking easier without putting up extra time for it.",
+                "image":"/assets/projects/dont_eat_alone.png"
             },
             {
-                "name":"Don't Eat Alone",
-                "description":"replace this.",
-                "image":"/assets/projects/"
+                "name":"Bruin Manager",
+                "description":"UCLA is a really happening place, sometimes too happening. Bruin Manager seeks to make this easier for you by building a platform to organise your college experience putting all your relevant data in one place: myUCLA class plans and schedules, filtering email using a machine learning algorithm- obtaining midterm schedules, club meeting times and other important events. Features like reminders and alerts to be further integrated into this as well as future plans for recommender systems. Web development project for this quarter, aiming to go mobile in the near future.",
+                "image":"/assets/projects/bruin_manager.png"
             },
             {
                 "name":"BPool",
@@ -21,11 +21,6 @@
                 "name":"BruinMeet",
                 "description":"Making dating fun and easy at UCLA",
                 "image":"/assets/projects/bruin_meet.jpg"
-            },
-            {
-                "name":"BruinScan",
-                "description":"Our goal is to make planning your classes easier. The lack of spots in required lectures is impacting too many student's graduations and/or 4-year plans. BruinScan fixes this by sending notifying students when their classes open up. All a student needs to do is sign up and choose the class(es) they want, and we will do the rest. We will store their class information and phone number in our database and as soon as the class opens up on the registrar, we will send them a text.",
-                "image":"/assets/projects/bruin_scan.png"
             },
             {
                 "name":"BruinSpeak",
@@ -53,9 +48,9 @@
                 "image":"/assets/projects/study_smart.png"
             },
             {
-                "name":"DevX Internal Dev Team",
-                "description":"replace this.",
-                "image":"/assets/projects/"
+                "name":"Internal Dev Team",
+                "description":"Internal tools team that will work on refining and improving the DevX recruitment portal, and any future internal tools required by DevX.",
+                "image":"/assets/profiles/LogoFrame.png"
             }
         ],
         "members":[
@@ -127,7 +122,7 @@
                 "github":"garchbold",
                 "team":"BPool",
                 "title":"Product Manager",
-                "image":""
+                "image":"/assets/profiles/george_archbold.jpg"
             },
             {
                 "name":"Jiunn Siow",
@@ -149,13 +144,6 @@
                 "team":"BPool",
                 "title":"Developer",
                 "image":"/assets/profiles/samar_seth.jpg"
-            },
-            {
-                "name":"Shannon Phu",
-                "github":"shannonphu",
-                "team":"BPool",
-                "title":"Developer",
-                "image":"/assets/profiles/shannon_phu.jpg"
             },
             {
                 "name":"Swetha Akella",
@@ -212,13 +200,6 @@
                 "team":"BruinMeet",
                 "title":"Jr. Developer",
                 "image":"/assets/profiles/ken_gu.jpg"
-            },
-            {
-                "name":"Melissa Peng",
-                "github":"melissapeng",
-                "team":"BruinMeet",
-                "title":"Jr. Developer",
-                "image":"/assets/profiles/melissa_peng.jpg"
             },
             {
                 "name":"Anirudh Balasubramaniam",
@@ -322,7 +303,7 @@
                 "name":"Hannah Elarabawy",
                 "github":"helarabawy",
                 "team":"Mappening",
-                "title":"Jr. Developer",
+                "title":"Developer",
                 "image":"/assets/profiles/hannah_elarabawy.jpg"
             },
             {
@@ -364,7 +345,7 @@
                 "name":"Tanzeela Khan",
                 "github":"tanzeelak",
                 "team":"Mappening",
-                "title":"Jr. Developer",
+                "title":"Developer",
                 "image":"/assets/profiles/tanzeela_khan.jpg"
             },
             {
@@ -380,6 +361,13 @@
                 "team":"BQuest",
                 "title":"Developer",
                 "image":"/assets/profiles/david_chen.jpg"
+            },
+            {
+                "name":"Chaitanya Pedada",
+                "github":"chaipedada",
+                "team":"Bruin Manager",
+                "title":"Jr. Developer",
+                "image":"/assets/profiles/chaitanya_pedada.jpg"
             },
             {
                 "name":"Dinkar Khattar",
@@ -484,7 +472,7 @@
                 "github":"insomnolent",
                 "team":"BQuest",
                 "title":"Jr. Developer",
-                "image":""
+                "image":"/assets/profiles/christine_sun.jpg"
             },
             {
                 "name":"Richard Yang",

@@ -25,7 +25,7 @@ export default {
   demoday: {
     time: 1521082800000,
   },
-  years: ['spring2017', 'fall2017'],
+  years: ['spring2017', 'fall2017', 'winter2018'],
   yearnames: {
     'spring2017': {
       stylized: 'Spring 2017',
