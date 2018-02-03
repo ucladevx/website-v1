@@ -9,7 +9,7 @@
             },
             {
                 "name":"Bruin Manager",
-                "description":"UCLA is a really happening place, sometimes too happening. Bruin Manager seeks to make this easier for you by building a platform to organise your college experience putting all your relevant data in one place: myUCLA class plans and schedules, filtering email using a machine learning algorithm- obtaining midterm schedules, club meeting times and other important events. Features like reminders and alerts to be further integrated into this as well as future plans for recommender systems. Web development project for this quarter, aiming to go mobile in the near future.",
+                "description":"UCLA is a really happening place, sometimes too happening. Bruin Manager seeks to make this easier for you by building a platform to organise your college experience putting all your relevant data in one place. You get your own personalised calendar *magically* autofilled with your Facebook events and integrated with myUCLA, you’ll also get alerts when your favourite food is on the menu at a dining hall, get to see exciting events happening at UCLA and everything else. You won’t need another app to manage your daily doings at UCLA.",
                 "image":"/assets/projects/bruin_manager.png"
             },
             {
@@ -21,11 +21,6 @@
                 "name":"BruinMeet",
                 "description":"Making dating fun and easy at UCLA",
                 "image":"/assets/projects/bruin_meet.jpg"
-            },
-            {
-                "name":"BruinSpeak",
-                "description":"At UCLA, there is often a disconnect between decision-makers, and those who are affected by their decisions. BruinSpeak allows for any student at UCLA to create proposals for changes that they would like to see on campus, as well as to voice their opinions about existing proposals. The desire is for student government organizations UCLA management to use this as a resource to see the changes that students are passionate about.",
-                "image":"/assets/projects/bruin_speak.png"
             },
             {
                 "name":"Loop",
