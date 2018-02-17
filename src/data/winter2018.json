@@ -508,7 +508,7 @@
                 "name":"Austin Guo",
                 "github":"austinguo550",
                 "team":"DevX Internal Dev Team",
-                "title":"Developer",
+                "title":"Jr. Developer",
                 "image":"/assets/profiles/austin_guo.jpg"
             },
             {
@@ -573,6 +573,13 @@
                 "team":"Mappening",
                 "title":"Product Manager",
                 "image":"/assets/profiles/doroty_sanussi.jpg"
+            },
+            {
+                "name":"Sanketh Hegde",
+                "github":"san2heg",
+                "team":"Mappening",
+                "title":"Developer",
+                "image":"/assets/profiles/sanketh_hegde.jpg"
             }
         ]
     }
