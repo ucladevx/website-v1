@@ -5,7 +5,7 @@ import winter2018 from 'data/winter2018';
 export default {
   url: {
     apply: 'https://recruiting.ucladevx.com',
-    applyPM: 'https://goo.gl/forms/576U6itIlwk17NYl2',
+    applyPM: 'https://recruiting.ucladevx.com',
     mailingList: 'http://eepurl.com/cFOmXH',
     workRequest: 'https://goo.gl/forms/ZmiidAbizEhYDMnG3',
     demoday: {

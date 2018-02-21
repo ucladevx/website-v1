@@ -27,6 +27,9 @@ class Home extends React.Component {
                   <Anchor ext href={Config.url.mailingList}>
                     <Button cta>Mailing List</Button>
                   </Anchor>
+                  <Anchor ext href={Config.url.apply}>
+                    <Button cta>Join Us!</Button>
+                  </Anchor>
                 </div>
               </div>
             </div>
@@ -107,11 +110,10 @@ class Home extends React.Component {
                   <p>
                     We are looking to bring on talented developers, designers, and
                     product managers for Spring 2018! All backgrounds and skill
-                    levels are welcome! Join the mailing list to get updates on 
-                    when the application opens.
+                    levels are welcome!
                   </p>
-                  <Anchor ext href={Config.url.mailingList}>
-                    <Button cta>Mailing List</Button>
+                  <Anchor ext href={Config.url.apply}>
+                    <Button cta>Apply Now!</Button>
                   </Anchor>
                 </div>
               </div>
