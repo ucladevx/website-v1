@@ -24,7 +24,7 @@ class Team extends React.Component {
     }
 
     return <div>
-      <Title invert><h1>{name} {stylized}</h1></Title>
+      <Title invert image name={name}><h1>{name} {stylized}</h1></Title>
       <Section invert column>
         <Container constrained>
           <div className="grid align-start">

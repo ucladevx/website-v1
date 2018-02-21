@@ -16,9 +16,8 @@ const Class = ({id, name, stylized, blurb, invert, breakStyle }) => {
     <Section invert={invert} background={breakStyle} >
         <div className="grid">
           {!invert && (<div className="col md-12 image-aside">
-              <img src="/assets/initiatives.png" />
-            </div>) 
-          }
+            <img src={`/assets/class_logos/${name}.png`} />
+          </div>)}
           <div className="col md-12">
             <div className="blurb">
               <div className="inner">
@@ -32,6 +31,9 @@ const Class = ({id, name, stylized, blurb, invert, breakStyle }) => {
               </div>
             </div>
           </div>
+          {invert && (<div className="col md-12 image-aside">
+            <img src={`/assets/class_logos/${name}.png`} />
+          </div>)}
         </div>
       </Section>
   )
