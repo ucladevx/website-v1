@@ -43,14 +43,14 @@ class Alumni extends React.Component {
   render(){
     let classes = []
 
-    for (let i = 0; i < Config.years.length-1; i++) {
+    for (let i = Config.years.length-2; i >= 0; i--) {
       const id = Config.years[i];
       const year = Config.yearnames[id];
 
-      const invert = (i+1) % 2 === 0 ? true : false;
+      const invert = (i+1) % 2 === 0 ? false : true;
       let breakStyle = invert ? "/assets/home_bg.png" : "/assets/about_us_bg.png";
 
-      if (i === Config.years.length-2 && ((Config.years.length-1) % 2 === 0)) {
+      if (i === 0 && ((Config.years.length-1) % 2 === 0)) {
         breakStyle = '';
       } 
 
