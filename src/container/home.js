@@ -30,6 +30,9 @@ class Home extends React.Component {
                   <Anchor ext href={Config.url.apply}>
                     <Button cta>Join Us!</Button>
                   </Anchor>
+                  <Anchor ext href={Config.url.api}>
+                    <Button cta>Our API</Button>
+                  </Anchor>
                 </div>
               </div>
             </div>

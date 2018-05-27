@@ -8,6 +8,7 @@ export default {
     applyPM: 'https://recruiting.ucladevx.com',
     mailingList: 'http://eepurl.com/cFOmXH',
     workRequest: 'https://goo.gl/forms/ZmiidAbizEhYDMnG3',
+    api: 'http://api.ucladevx.com',
     demoday: {
       rsvp: 'http://google.com',
       sponsor: 'http://google.com',
