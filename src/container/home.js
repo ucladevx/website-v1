@@ -128,7 +128,7 @@ class Home extends React.Component {
         </Section>
         <Section invert>
           <span>
-            a special thanks to{' '}
+            A special thanks to{' '}
             <Anchor
               ext
               className="underline"
@@ -140,7 +140,7 @@ class Home extends React.Component {
         </Section>
         <Section invert>
           <span>
-            Want to help one of the most influential organizations at UCLA,{' '} 
+            Want to help one of the most influential organizations at UCLA?{' '} 
             <Anchor
               ext
               className="underline"
