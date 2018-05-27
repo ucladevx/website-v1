@@ -138,6 +138,18 @@ class Home extends React.Component {
             for supporting us!
           </span>
         </Section>
+        <Section invert>
+          <span>
+            Want to help one of the most influential organizations at UCLA,{' '} 
+            <Anchor
+              ext
+              className="underline"
+              href={Config.url.sponsor.brochure}>
+               Sponsor Us
+            </Anchor>
+            .
+          </span>
+        </Section>
         <Footer />
       </div>
     );

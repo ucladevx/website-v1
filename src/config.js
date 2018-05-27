@@ -20,6 +20,7 @@ export default {
       yt: 'https://www.youtube.com/channel/UCf4uTKuKJe-Pg3zFRYpfNpA',
     },
     sponsor: {
+      brochure: '/assets/sponsorship_brochure.pdf',
       stickermule: 'https://www.stickermule.com/',
     },
   },
