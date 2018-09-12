@@ -33,14 +33,7 @@ module.exports = {
   resolve: {
     modules: [path.resolve(__dirname, "src"), "node_modules"]
   },
-  plugins: [
-    new ExtractTextPlugin("[name].css"),
-    new webpack.DefinePlugin({
-      "process.env": {
-        PRODUCTION: JSON.stringify(env.NODE_ENV === "production")
-      }
-    })
-  ],
+  plugins: [new ExtractTextPlugin("[name].css")],
   watchOptions: {
     aggregateTimeout: 500,
     poll: 2000,
