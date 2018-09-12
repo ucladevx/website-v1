@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 ./build.sh
-mkdir -p ../ghpages-website
-cp -r pages/* ../ghpages-website
-cp lib/devx_landing_page.css ../ghpages-website
-cp lib/devx_landing_page.js ../ghpages-website
+cp -r pages/* ../ucladevx.github.io
+cp lib/devx_landing_page.css ../ucladevx.github.io
+cp lib/devx_landing_page.js ../ucladevx.github.io
