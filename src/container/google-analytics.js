@@ -1,9 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import ReactGA from "react-ga";
 import { Route } from "react-router-dom";
+import Config from "../config";
 
-class GoogleAnalytics extends Component {
+class GoogleAnalytics extends React.Component {
   componentDidMount() {
     this.logPageChange(
       this.props.location.pathname,
@@ -49,15 +50,13 @@ GoogleAnalytics.propTypes = {
 
 const RouteTracker = () => <Route component={GoogleAnalytics} />;
 
-const init = (options = {}) => {
-  const env = window._env_ || {};
-  const isGAEnabled = !!env.REACT_APP_GA_TRACKING_ID;
+const init = options => {
+  options = options || Config.gaTracking.options;
+  const { trackingId } = Config.gaTracking;
+  const isGAEnabled = !!trackingId;
 
   if (isGAEnabled) {
-    ReactGA.initialize(env.REACT_APP_GA_TRACKING_ID, {
-      debug: env.REACT_APP_GA_DEBUG === "true",
-      ...options
-    });
+    ReactGA.initialize(trackingId, options);
   }
 
   return isGAEnabled;
